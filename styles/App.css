@@ -1,6 +1,8 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  text-align: center;
+body {
   background-color: #eeeeee;
+}
+
+#root {
+  background-color: #eeeeee;
+  min-height: 100vh;
 }
