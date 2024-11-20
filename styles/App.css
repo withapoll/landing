@@ -1,8 +1,8 @@
-body {
-  background-color: #eeeeee;
-}
-
 #root {
   background-color: #eeeeee;
   min-height: 100vh;
+}
+
+.container-fluid {
+  background-color: #eeeeee;
 }

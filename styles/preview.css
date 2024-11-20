@@ -8,6 +8,10 @@
   position: relative;
 }
 
+.background-block .container-fluid {
+  background-color: transparent;
+}
+
 .text-and-image-block {
   position: relative;
   z-index: 1;
