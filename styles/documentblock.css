@@ -1,0 +1,23 @@
+.document-line {
+    width: 590px;
+    height: 60px;
+    background-color: #3838ce;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.document-text {
+    margin-left: 10px;
+}
+
+.nav-link{
+    color: #52515f;
+}
+
+.nav-link.active {
+    background-color: #b8e904;
+}

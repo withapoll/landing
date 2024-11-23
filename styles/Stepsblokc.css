@@ -1,0 +1,74 @@
+.indentation {
+    margin-top: 80px;
+    margin-bottom: 71px;
+    width: 1219px;
+    height: 523px;
+    margin-left: 100px;
+}
+
+.container-steps-01 {
+    width: 387px;
+    height: 206px;
+    border-radius: 20px;
+    background-color: #3838ce;
+}
+
+.steps-01-number {
+    width: 54px;
+    height: 33px;
+    border-radius: 20px;
+    margin-top: 21px;
+    margin-left: 49px;
+    text-align: center;
+    color: #3838ce;
+    background-color: #FFFFFF;
+}
+
+.steps-01-text {
+    color: #FFFFFF;
+    margin-left: 49px;
+    text-align: left;
+}
+
+.container-steps-02 {
+    width: 387px;
+    height: 139px;
+    border-radius: 20px;
+    background-color: #b8e904;
+}
+
+.steps-02-number {
+    width: 54px;
+    height: 33px;
+    border-radius: 20px;
+    margin-top: 21px;
+    margin-left: 49px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #3838ce;
+}
+
+.steps-02-text {
+    color: #52515f;
+    margin-left: 49px;
+    text-align: left;
+}
+
+.container-steps-04 {
+    width: 387px;
+    height: 206px;
+    border-radius: 20px;
+    background-color: #b8e904;
+}
+
+.container-steps-06 {
+    width: 387px;
+    height: 206px;
+    border-radius: 20px;
+    background-color: #3838ce;
+}
+
+.steps-06-text {
+    color: #FFFFFF;
+    text-align: center;
+}

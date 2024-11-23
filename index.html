@@ -19,6 +19,10 @@
     <link href="styles/about.css" rel="stylesheet" />
     <link href="styles/promo.css" rel="stylesheet" />
     <link href="styles/creepingline.css" rel="stylesheet">
+    <link href="styles/photoblock.css" rel="stylesheet">
+    <link href="styles/iconblock.css" rel="stylesheet">
+    <link href="styles/documentblock.css" rel="stylesheet">
+    <link href="styles/Stepsblokc.css" rel="stylesheet">
   </head>
   <body>
     <div id="root" class="container-fluid py-2">
@@ -80,7 +84,7 @@
             <h2 class="dark-h2">КТО МОЖЕТ ПОСТУПИТЬ</h2>
             <h2 class="blue-h2">В НАШ КОЛЛЕДЖ?</h2>
         </div>
-        <div class="row d-flex justify-content-center">
+        <div class="row d-flex justify-content-center otstup">
             <div class="info-wrapper"> 
                 <!-- First Card --> 
                 <div class="info-block">
@@ -104,7 +108,7 @@
           <h1><span class="blue-h2">ПОСЛЕ ВЫПУСКА</span></h1>
           <h1><span class="dark-h2">ИЗ НАШЕГО КОЛЛЕДЖА</span></h1>
         </div>
-        <!--фиксануть проблемы (длинные дивы и налезание друг на друга)-->
+        <!--фиксануть проблемы (длинные дивы и налезание друг на друга + (top) отступ)-->
         <div class="pov">
           <div class="line-first col-xs-12 marquee-rid">
             <div class="slope-text-box">ТОКАРЬ</div>
@@ -132,56 +136,212 @@
         </div>
       </div>
       <div class="promo-block container-fluid">
-        <div class="row align-items-center text-center">
-          <h2><span class="dark-h2">НАШИ</span> <span class="blue-h2">ВЫДАЮЩИЕСЯ</span></h2>
-          <h2><span class="dark-h2">ВЫПУСКНИКИ</span></h2>
+        <div class="head-text-block-photo">
+          <h2><span class="dark-h2">НАШИ <span class="blue-h2">ВЫДАЮЩИЕСЯ</span><br>ВЫПУСКНИКИ</span></h2>
         </div>
+        <!--проблема с 5 фотками(с низу есть просвет)-->
         <div class="row d-flex justify-content-center">
-          <div class="info-wrapper">
-            <!--фотки и текст предприятий-->
-            <div class="info-block">
-              <img src="">
+          <div class="photo-wrapper">
+            <div>
+              <div class="photo-block photo">
+                <img class="graduates" src="./images/photo/blok1.png">
+              </div>
+              <div class="text-photo">
+                <h3>Артем Муляр</h3><br>
+                <p>Чемпион европейского чемпионата профессионального мастерства по компетенции «Фрезерные работы на станках  с ЧПУ»</p>
+              </div>
             </div>
-            <div class="info-block">
-              <img src="">
+            <div>
+              <div class="photo-block">
+                <img class="graduates" src="./images/photo/blok2.png">
+              </div>
+              <div class="text-photo">
+                <h3>Данил Полозов</h3><br>
+                <p>Чемпион европейского чемпионата профессионального мастерства по компетенции «Токарные работы  на станках с ЧПУ»</p>
+              </div>
+              </div>
+            <div>
+              <div class="photo-block">
+                <img class="graduates" src="./images/photo/blok3.png">
+              </div>
+              <div class="text-photo">
+              <h3>Кристина Савонова</h3><br>
+              <p>Двукратная чемпионка  России соревнований профессионального  мастерства в компетенциях «Сельскохозяйственные биотехнологии»</p>
+              </div>
             </div>
-            <div class="info-block">
-              <img src="">
+            <div>
+              <div class="photo-block">
+                <img class="graduates" src="./images/photo/blok4.png">
+              </div>
+              <div class="text-photo">
+                <h3>Иван Кучеренко</h3><br>
+                <p>Чемпион мира  по компетенции «Интеграция робототехнических систем»</p>
+              </div>
             </div>
-            <div class="info-block">
-              <img src="">
-            </div>
-            <div class="info-block">
-              <img src="">
-            </div>
+            <div>
+              <div class="photo-block">
+                <img class="graduates" src="">
+              </div>
+              <div class="text-photo">
+                <h3>Ахмед Матиев</h3><br>
+                <p>Медаль за профессионализм на мировом чемпионате профессионального мастерства в компетенции «Полимеханика и автоматизация».</p>
+              </div>
+              </div>
+            <div>
+              <div class="photo-block">
+                <img class="graduates" src="./images/photo/blok6.png">
+              </div>
+              <div class="text-photo">
+                <h3>Карелия Брандесс</h3><br>
+                <p>Чемпионка мира соревнований профессионального мастерства в компетенции «Сельскохозяйственные биотехнологии FS»</p>
+              </div>
+              </div>
+            <div>
+              <div class="photo-block">
+                <img class="graduates" src="./images/photo/blok7.png">
+              </div>
+              <div class="text-photo">
+                <h3>Максим Гаврилин</h3><br>
+                <p>Чемпион России соревнований профессионального мастерства по компетенции «Геопространственные технологии»</p>
+              </div>
+              </div>
+            <div>
+              <div class="photo-block">
+                <img class="graduates" src="./images/photo/blok8.png">
+              </div>
+              <div class="text-photo">
+                <h3>Денис Соловьев</h3><br>
+                <p>Бронзовый призер чемпионата профессионального мастерства «Один пояс - один путь» в компетенции «Промышленная робототехника».</p>
+              </div>
+              </div>
           </div>
         </div>
       </div>
-      <div>
+      <div class="icon-block">
         <div class="row align-items-center text-center">
-          <h2><span class="blue-h2">ГАРАНТИРОВАННОЕ</span><br><span class="dark-h2">ТРУДОУСТРОЙСТВО</span></h2>
-          <p>на ведущие технологические<br> предприятия страны</p>
+          <h1><span class="color1">ГАРАНТИРОВАННОЕ</span><br><span class="color2">ТРУДОУСТРОЙСТВО</span></h1>
+          <p><span class="dark-h2">на ведущие технологические<br> предприятия страны</span></p>
         </div>
         <div>
-          <!--иконки предприятий-->
+          <div class="icon-line-one">
+            <img class="icon" src="images/icon/icon1_1.png">
+            <img class="icon" src="images/icon/icon1_2.png">
+            <img class="icon" src="images/icon/icon1_3.png">
+            <img class="icon" src="images/icon/icon1_4.png">
+            <img class="icon" src="images/icon/icon1_5.png">
+            <img class="icon" src="images/icon/icon1_6.png">
+          </div>
+          <div class="icon-line-two">
+            <img class="icon" src="images/icon/icon2_1.png">
+            <img class="icon" src="images/icon/icon2_2.png">
+            <img class="icon" src="images/icon/icon2_3.png">
+            <img class="icon" src="images/icon/icon2_4.png">
+            <img class="icon" src="images/icon/icon2_5.png">
+            <img class="icon" src="images/icon/icon2_6.png">
+            <img class="icon" src="images/icon/icon2_7.png">
+          </div>
         </div>
       </div>
       <div class="promo-block container-fluid">
         <div class="row align-items-center text-center">
           <h2><span class="dark-h2">КАКИЕ <span class="blue-h2">ДОКУМЕНТЫ</span><br> ТРЕБУЮТСЯ?</span></h2>
-          <!--бокс с переключателем строками и фоткой-->
+          <div class="d-flex justify-content-center mt-3">
+            <ul class="nav nav-pills" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                        class="nav-link active"
+                        id="pills-rf-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#pills-rf"
+                        type="button"
+                        role="tab"
+                        aria-controls="pills-rf"
+                        aria-selected="true"
+                >
+                  Я ГРАЖДАНИН РФ
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                        class="nav-link"
+                        id="pills-other-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#pills-other"
+                        type="button"
+                        role="tab"
+                        aria-controls="pills-other"
+                        aria-selected="false"
+                >
+                  Я ГРАЖДАНИН ДРУГОЙ СТРАНЫ
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="tab-content mt-3" id="pills-tabContent">
+            <div
+                    class="tab-pane fade show active"
+                    id="pills-rf"
+                    role="tabpanel"
+                    aria-labelledby="pills-rf-tab"
+            >
+              <div class="document-line"><p class="document-text">Паспорт</p></div>
+              <div class="document-line"><p class="document-text">Аттестат об окончании средней или старшей школы</p></div>
+              <div class="document-line"><p class="document-text">СНИЛС</p></div>
+              <div class="document-line"><p class="document-text">ИНН</p></div>
+              <div class="document-line"><p class="document-text">Фотография 3×4 (4 штуки)</p></div>
+              <div class="document-line"><p class="document-text">Полис ОМС</p></div>
+              <div class="document-line"><p class="document-text">Форма справка 086у</p></div>
+            </div>
+            <div
+                    class="tab-pane fade"
+                    id="pills-other"
+                    role="tabpanel"
+                    aria-labelledby="pills-other-tab"
+            >
+              <div class="document-line"><p class="document-text">Нотариально заверенный перевод паспорта</p></div>
+              <div class="document-line"><p class="document-text">Вид на жительство (или временная регистрация)</p></div>
+              <div class="document-line"><p class="document-text">Аттестат и перевод аттестата (в случае отсутствия русскоязычной версии)</p></div>
+              <div class="document-line"><p class="document-text">Полис медицинского страхования</p></div>
+              <div class="document-line"><p class="document-text">Форма справки 086у</p></div>
+              <div class="document-line"><p class="document-text">СНИЛС</p></div>
+              <div class="document-line"><p class="document-text">Фотография 3×4 (4 штуки)</p></div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center mt-4">
+            <img
+                    src="./images/document.png"
+                    alt="t"
+                    class="img-fluid"
+            />
+          </div>
         </div>
       </div>
       <div>
-        <div class="row align-items-center text-center">
-          <h2><span class="dark-h2">ШАГИ</span></h2>
-          <!--6 боксов-->
-          <div>01</div>
-          <div>02</div>
-          <div>03</div>
-          <div>04</div>
-          <div>05</div>
-          <div>ждём</div>
+        <div class="row align-items-center text-center indentation">
+          <h1><span class="dark-h2">ШАГИ</span></h1>
+          <div class="container-steps-01">
+            <p class="steps-01-number">01</p>
+            <p class="steps-01-text">Запишись на<br> индивидуальную<br> консультацию</p>
+          </div>
+          <div class="container-steps-02">
+            <p class="steps-02-number">02</p>
+            <p class="steps-02-text">Выбери программу<br>обучения вместе с нами</p>
+          </div>
+          <div class="container-steps-02">
+            <p class="steps-02-number">03</p>
+            <p class="steps-02-text">Подготовь<br>документы</p>
+          </div>
+          <div class="container-steps-04">
+            <p class="steps-02-number">04</p>
+            <p class="steps-02-text">Отправь нам необходимые документы</p>
+          </div>
+          <div class="container-steps-02">
+            <p class="steps-02-number">05</p>
+            <p class="steps-02-text">Подпиши договор<br>и начинай учиться</p>
+          </div>
+          <div class="container-steps-01">
+            <h3 class="steps-06-text">Ждем тебя<br> в нашем<br> колледже!</h3>
+          </div>
         </div>
       </div>
       <div>запишись на консультацию</div>

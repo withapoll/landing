@@ -1,0 +1,36 @@
+.head-text-block-photo {
+    margin-top: 81px;
+    margin-bottom: 31px;
+}
+
+.photo-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+
+.photo-block {
+    background-color: #b8e904;
+    width: 285px;
+    height: 327px;
+    border-radius: 60px;
+    overflow: clip;
+    margin-right: 20px;
+}
+
+.graduates {
+    object-fit: contain;
+    width: 285px;
+    height: 327px;
+}
+
+.text-photo h3{
+    color: #3838ce;
+}
+
+.text-photo p{
+    color: #52515f;
+}

@@ -1,13 +1,13 @@
 .creeping-line {
     display: inline-block;
     align-items: center;
-    margin-top: 150px;
 }
 
 .pov {
     margin-top: 50px;
     font-size: 18px;
     transform:rotate(-5deg);
+    margin-bottom: 100px;
 }
 
 .slope-text-box {
