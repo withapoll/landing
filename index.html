@@ -23,6 +23,7 @@
     <link href="styles/iconblock.css" rel="stylesheet">
     <link href="styles/documentblock.css" rel="stylesheet">
     <link href="styles/Stepsblokc.css" rel="stylesheet">
+    <link href="styles/consultationclock.css" rel="stylesheet">
   </head>
   <body>
     <div id="root" class="container-fluid py-2">
@@ -245,45 +246,24 @@
       <div class="promo-block container-fluid">
         <div class="row align-items-center text-center">
           <h2><span class="dark-h2">КАКИЕ <span class="blue-h2">ДОКУМЕНТЫ</span><br> ТРЕБУЮТСЯ?</span></h2>
-          <div class="d-flex justify-content-center mt-3">
-            <ul class="nav nav-pills" id="pills-tab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <button
-                        class="nav-link active"
-                        id="pills-rf-tab"
-                        data-bs-toggle="pill"
-                        data-bs-target="#pills-rf"
-                        type="button"
-                        role="tab"
-                        aria-controls="pills-rf"
-                        aria-selected="true"
-                >
-                  Я ГРАЖДАНИН РФ
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button
-                        class="nav-link"
-                        id="pills-other-tab"
-                        data-bs-toggle="pill"
-                        data-bs-target="#pills-other"
-                        type="button"
-                        role="tab"
-                        aria-controls="pills-other"
-                        aria-selected="false"
-                >
-                  Я ГРАЖДАНИН ДРУГОЙ СТРАНЫ
-                </button>
-              </li>
-            </ul>
-          </div>
+        </div>
+        <div class="d-flex justify-content-center mt-3">
+          <ul class="nav nav-pills" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-rf-tab" data-bs-toggle="pill" data-bs-target="#pills-rf" type="button" role="tab" aria-controls="pills-rf" aria-selected="true">
+                Я ГРАЖДАНИН РФ
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-other-tab" data-bs-toggle="pill" data-bs-target="#pills-other" type="button" role="tab" aria-controls="pills-other" aria-selected="false">
+                Я ГРАЖДАНИН ДРУГОЙ СТРАНЫ
+              </button>
+            </li>
+          </ul>
+        </div>
           <div class="tab-content mt-3" id="pills-tabContent">
-            <div
-                    class="tab-pane fade show active"
-                    id="pills-rf"
-                    role="tabpanel"
-                    aria-labelledby="pills-rf-tab"
-            >
+            <div class="row">
+            <div class="col tab-pane fade show active" id="pills-rf" role="tabpanel" aria-labelledby="pills-rf-tab">
               <div class="document-line"><p class="document-text">Паспорт</p></div>
               <div class="document-line"><p class="document-text">Аттестат об окончании средней или старшей школы</p></div>
               <div class="document-line"><p class="document-text">СНИЛС</p></div>
@@ -291,13 +271,11 @@
               <div class="document-line"><p class="document-text">Фотография 3×4 (4 штуки)</p></div>
               <div class="document-line"><p class="document-text">Полис ОМС</p></div>
               <div class="document-line"><p class="document-text">Форма справка 086у</p></div>
+              <div class="col d-flex justify-content-center mt-4">
+                <img src="./images/document.png" alt="t" class="img-document"/>
+              </div>
             </div>
-            <div
-                    class="tab-pane fade"
-                    id="pills-other"
-                    role="tabpanel"
-                    aria-labelledby="pills-other-tab"
-            >
+            <div class="col tab-pane fade" id="pills-other" role="tabpanel" aria-labelledby="pills-other-tab">
               <div class="document-line"><p class="document-text">Нотариально заверенный перевод паспорта</p></div>
               <div class="document-line"><p class="document-text">Вид на жительство (или временная регистрация)</p></div>
               <div class="document-line"><p class="document-text">Аттестат и перевод аттестата (в случае отсутствия русскоязычной версии)</p></div>
@@ -305,47 +283,87 @@
               <div class="document-line"><p class="document-text">Форма справки 086у</p></div>
               <div class="document-line"><p class="document-text">СНИЛС</p></div>
               <div class="document-line"><p class="document-text">Фотография 3×4 (4 штуки)</p></div>
+              <div class="col d-flex justify-content-center mt-4">
+                <img src="./images/document.png" alt="t" class="img-document"/>
+              </div>
             </div>
           </div>
-          <div class="d-flex justify-content-center mt-4">
-            <img
-                    src="./images/document.png"
-                    alt="t"
-                    class="img-fluid"
-            />
-          </div>
         </div>
       </div>
-      <div>
         <div class="row align-items-center text-center indentation">
           <h1><span class="dark-h2">ШАГИ</span></h1>
-          <div class="container-steps-01">
-            <p class="steps-01-number">01</p>
-            <p class="steps-01-text">Запишись на<br> индивидуальную<br> консультацию</p>
-          </div>
-          <div class="container-steps-02">
-            <p class="steps-02-number">02</p>
-            <p class="steps-02-text">Выбери программу<br>обучения вместе с нами</p>
-          </div>
-          <div class="container-steps-02">
-            <p class="steps-02-number">03</p>
-            <p class="steps-02-text">Подготовь<br>документы</p>
-          </div>
-          <div class="container-steps-04">
-            <p class="steps-02-number">04</p>
-            <p class="steps-02-text">Отправь нам необходимые документы</p>
-          </div>
-          <div class="container-steps-02">
-            <p class="steps-02-number">05</p>
-            <p class="steps-02-text">Подпиши договор<br>и начинай учиться</p>
-          </div>
-          <div class="container-steps-01">
-            <h3 class="steps-06-text">Ждем тебя<br> в нашем<br> колледже!</h3>
+        </div>
+          <div class="container-step">
+            <div class="row">
+              <div class="col">
+                <div class="container-steps-01">
+                  <p class="steps-01-number">01</p>
+                  <p class="steps-01-text">Запишись на<br> индивидуальную<br> консультацию</p>
+                </div>
+                <div class="container-steps-02">
+                  <p class="steps-02-number">02</p>
+                  <p class="steps-02-text">Выбери программу<br>обучения вместе с нами</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="container-steps-02">
+                  <p class="steps-02-number">03</p>
+                  <p class="steps-02-text">Подготовь<br>документы</p>
+                </div>
+                <div class="container-steps-04">
+                  <p class="steps-02-number">04</p>
+                  <p class="steps-02-text">Отправь нам необходимые документы</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="container-steps-02">
+                  <p class="steps-02-number">05</p>
+                  <p class="steps-02-text">Подпиши договор<br>и начинай учиться</p>
+                </div>
+                <div class="container-steps-01">
+                  <h3 class="steps-06-text">Ждем тебя<br> в нашем<br> колледже!</h3>
+                </div>
+              </div>
+            </div>
+        </div>
+      <div class="consultation-bg-photo">
+        <div class="container-consultation">
+          <div class="row">
+            <div class="col color-consultation">
+              <h3>ЗАПИШИСЬ<br>НА ИНДИВИДУАЛЬНУЮ<br>КОНСУЛЬТАЦИЮ</h3>
+              <p>Оставь заявку и получи<br> консультацию</p>
+            </div>
+            <div class="col ">
+              <input class=" line-name" type="text" id="name" name="name" placeholder="имя">
+              <div class="row">
+                <div class="col col-phone">
+                  <input class="line-phone" type="tel" id="phone" name="phone" placeholder="+7 (999) 99-99" pattern="[7-8]{1} [0-9]{3} [0-9]{3}-[0-9]{2}-[0-9]{2}">
+                </div>
+                <div class="col col-email">
+                  <input class="line-email" type="email" id="email" name="email" placeholder="почта">
+                </div>
+              </div>
+              <div class="col-12 col-sm text-center text-sm-end">
+                <div class="d-inline-flex button-group">
+                  <button
+                          class="btne btne-primary btne-lg rounded-circle p-0 d-flex align-items-center justify-content-center"
+                          title="Перейти"
+                          aria-label="Перейти"
+                  >
+                    <i class="bi bi-arrow-right-short"></i>
+                  </button>
+                  <button
+                          class="btne btne-primary btne-lg btne-width rounded-0 h-100 flex-grow-1 text-wrap"
+                  >
+                    ПОДАТЬ ЗАЯВКУ
+                  </button>
+                </div>
+              </div>
+              <a class="linc-accept" href="">Нажимая на кнопку, я соглашаюсь с политикой обработки персональных данных</a>
+            </div>
           </div>
         </div>
       </div>
-      <div>запишись на консультацию</div>
-      <!--форма подачи заявки-->
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>

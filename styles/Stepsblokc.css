@@ -1,15 +1,19 @@
 .indentation {
     margin-top: 80px;
     margin-bottom: 71px;
-    width: 1219px;
-    height: 523px;
     margin-left: 100px;
+}
+
+.container-step {
+    margin-left: 100px;
+    margin-bottom: 78px;
 }
 
 .container-steps-01 {
     width: 387px;
     height: 206px;
     border-radius: 20px;
+    margin-right: 19px;
     background-color: #3838ce;
 }
 
@@ -17,8 +21,8 @@
     width: 54px;
     height: 33px;
     border-radius: 20px;
-    margin-top: 21px;
-    margin-left: 49px;
+    margin-top: 15px;
+    margin-left: 25px;
     text-align: center;
     color: #3838ce;
     background-color: #FFFFFF;
@@ -26,7 +30,7 @@
 
 .steps-01-text {
     color: #FFFFFF;
-    margin-left: 49px;
+    margin-left: 25px;
     text-align: left;
 }
 
@@ -34,6 +38,8 @@
     width: 387px;
     height: 139px;
     border-radius: 20px;
+    margin-right: 19px;
+    margin-bottom: 17px;
     background-color: #b8e904;
 }
 
@@ -58,6 +64,7 @@
     width: 387px;
     height: 206px;
     border-radius: 20px;
+    margin-right: 19px;
     background-color: #b8e904;
 }
 
