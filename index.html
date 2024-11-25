@@ -18,12 +18,12 @@
     <link href="styles/preview.css" rel="stylesheet" />
     <link href="styles/about.css" rel="stylesheet" />
     <link href="styles/promo.css" rel="stylesheet" />
-    <link href="styles/creepingline.css" rel="stylesheet">
-    <link href="styles/photoblock.css" rel="stylesheet">
-    <link href="styles/iconblock.css" rel="stylesheet">
-    <link href="styles/documentblock.css" rel="stylesheet">
-    <link href="styles/Stepsblokc.css" rel="stylesheet">
-    <link href="styles/consultationclock.css" rel="stylesheet">
+    <link href="styles/creepingline.css" rel="stylesheet" />
+    <link href="styles/photoblock.css" rel="stylesheet" />
+    <link href="styles/iconblock.css" rel="stylesheet" />
+    <link href="styles/documentblock.css" rel="stylesheet" />
+    <link href="styles/Stepsblokc.css" rel="stylesheet" />
+    <link href="styles/consultationclock.css" rel="stylesheet" />
   </head>
   <body>
     <div id="root" class="container-fluid py-2">
@@ -79,31 +79,43 @@
           </span>
         </h2>
       </div>
-      <!--слишком большой отступ у двух надписей (как предложение объеденить две строки <h2> в одну, перенос сделать тегом <br>)-->
+      <!--Да, ты прав, спасибо исправил :)-->
       <div class="promo-block container-fluid">
         <div class="row align-items-center text-center">
-            <h2 class="dark-h2">КТО МОЖЕТ ПОСТУПИТЬ</h2>
-            <h2 class="blue-h2">В НАШ КОЛЛЕДЖ?</h2>
+          <h2 class="dark-h2"><br>КТО МОЖЕТ ПОСТУПИТЬ<br />
+            <span class="blue-h2">В НАШ КОЛЛЕДЖ?</span></h2>
         </div>
         <div class="row d-flex justify-content-center otstup">
-            <div class="info-wrapper"> 
-                <!-- First Card --> 
-                <div class="info-block">
-                    <h3>Выпускники 9-го класса</h3>
-                    <p>Мы готовы предложить вам программу, которая наилучшим образом соответствует вашим способностям.</p>
-                </div>
-                <!-- Second Card --> 
-                <div class="info-block"> <h3>Выпускники 11-го класса</h3> <p>Обучение в колледже занимает меньше времени, чем аналогичная специальность в университете. Поступив к нам, вы сможете начать зарабатывать раньше своих сверстников.</p>
-                </div> 
-                <!-- Third Card -->
-                <div class="info-block">
-                    <h3>Люди в любом возрасте, которые хотят сменить профессию</h3>
-                    <p>Вы можете поступить в колледж в любом возрасте — главное, чтобы у вас было основное или среднее общее образование.</p>
-                </div>
+          <div class="info-wrapper">
+            <!-- First Card -->
+            <div class="info-block">
+              <h3>Выпускники 9-го класса</h3>
+              <p>
+                Мы готовы предложить вам программу, которая наилучшим образом
+                соответствует вашим способностям.
+              </p>
             </div>
+            <!-- Second Card -->
+            <div class="info-block">
+              <h3>Выпускники 11-го класса</h3>
+              <p>
+                Обучение в колледже занимает меньше времени, чем аналогичная
+                специальность в университете. Поступив к нам, вы сможете начать
+                зарабатывать раньше своих сверстников.
+              </p>
+            </div>
+            <!-- Third Card -->
+            <div class="info-block">
+              <h3>Люди в любом возрасте, которые хотят сменить профессию</h3>
+              <p>
+                Вы можете поступить в колледж в любом возрасте — главное, чтобы
+                у вас было основное или среднее общее образование.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-      <!--отступы от твоего блока-->
+      <!--отступы от моего блока добавил-->
       <!--css: creepingline.css-->
       <div class="creep-line">
         <div class="row align-items-center text-center">
@@ -111,270 +123,426 @@
           <h1><span class="blue-h2">ПОСЛЕ ВЫПУСКА</span></h1>
           <h1><span class="dark-h2">ИЗ НАШЕГО КОЛЛЕДЖА</span></h1>
         </div>
-        <!--фиксануть проблемы (длинные дивы и налезание друг на друга + (top) отступ)-->
+        <!--фиксанул баг с анимацией, все работает :) посмотри как можно её сделать так, чтобы она работала так - заканчивается в одной стороне, а начинается в другой без перерыва-->
         <div class="pov">
-          <div class="line-first col-xs-12 marquee-rid">
-            <div class="slope-text-box">ТОКАРЬ</div>
-            <div class="slope-text-circle">ТЕСТИРОВЩИК</div>
-            <div class="slope-text-circle ">ТЕХНИК ПО ЗАЩИТЕ ИНФОРМАЦИИ</div>
-            <div class="slope-text-box">СЛЕСАРЬ</div>
-            <div class="slope-text-circle">НАЛАДЧИК СТАНКОВ И МАНИПУЛЯТОРОВ С ПРОГРАММНЫМ УПРАВЛЕНИЕМ</div>
-            <div class="slope-text-box">СТАНОЧНИК ШИРОКОГО ПРОФИЛЯ</div>
+          <div class="line-container">
+              <div class="line marquee">
+                  <div class="slope-text-box">ТОКАРЬ</div>
+                  <div class="slope-text-circle">ТЕСТИРОВЩИК</div>
+                  <div class="slope-text-circle">ТЕХНИК ПО ЗАЩИТЕ ИНФОРМАЦИИ</div>
+                  <div class="slope-text-box">СЛЕСАРЬ</div>
+                  <div class="slope-text-circle">НАЛАДЧИК СТАНКОВ И МАНИПУЛЯТОРОВ С ПРОГРАММНЫМ УПРАВЛЕНИЕМ</div>
+                  <div class="slope-text-box">СТАНОЧНИК ШИРОКОГО ПРОФИЛЯ</div>
+              </div>
           </div>
-          <div class="line-second col-xs-12 marquee">
-            <div class="slope-text-circle">СЕТЕВОЙ И СИСТЕМНЫЙ АДМИНИСТРАТОР</div>
-            <div class="slope-text-box ">ИНЖЕНЕР-ПРОГРАММИСТ</div>
-            <div class="slope-text-circle">ГРАФИЧЕСКИЙ ДИЗАЙНЕР</div>
-            <div class="slope-text-box">ОПЕРАТОР СТАНКОВ С ПРОГРАММНЫМ УПРАВЛЕНИЕМ</div>
-            <div class="slope-text-circle">ФАРМАЦЕВТ</div>
-            <div class="slope-text-box">СТАНОЧНИК ШИРОКОГО ПРОФИЛЯ</div>
+          <div class="line-container">
+              <div class="line marquee-rid">
+                  <div class="slope-text-circle">СЕТЕВОЙ И СИСТЕМНЫЙ АДМИНИСТРАТОР</div>
+                  <div class="slope-text-box">ИНЖЕНЕР-ПРОГРАММИСТ</div>
+                  <div class="slope-text-circle">ГРАФИЧЕСКИЙ ДИЗАЙНЕР</div>
+                  <div class="slope-text-box">ОПЕРАТОР СТАНКОВ С ПРОГРАММНЫМ УПРАВЛЕНИЕМ</div>
+                  <div class="slope-text-circle">ФАРМАЦЕВТ</div>
+                  <div class="slope-text-box">СТАНОЧНИК ШИРОКОГО ПРОФИЛЯ</div>
+              </div>
           </div>
-          <div class="line-first col-xs-12 marquee-rid">
-            <div class="slope-text-box">ОПЕРАТОР 3D ПЕЧАТИ</div>
-            <div class="slope-text-circle">ПРОГРАММИСТ</div>
-            <div class="slope-text-box ">МОНТАЖНИК ЭЛЕКТРООБОРУДОВАНИЯ ЛЕТАТЕЛЬНЫХ АППАРАТОВ</div>
-            <div class="slope-text-circle">МОНТАЖНИК РАДИОЭЛЕКТРОННОЙ АППАРАТУРЫ И ПРИБОРОВ</div>
-            <div class="slope-text-box">ЭЛЕКТРОМЕХАНИК</div>
+          <div class="line-container">
+              <div class="line marquee">
+                  <div class="slope-text-box">ОПЕРАТОР 3D ПЕЧАТИ</div>
+                  <div class="slope-text-circle">ПРОГРАММИСТ</div>
+                  <div class="slope-text-box">МОНТАЖНИК ЭЛЕКТРООБОРУДОВАНИЯ ЛЕТАТЕЛЬНЫХ АППАРАТОВ</div>
+                  <div class="slope-text-circle">МОНТАЖНИК РАДИОЭЛЕКТРОННОЙ АППАРАТУРЫ И ПРИБОРОВ</div>
+                  <div class="slope-text-box">ЭЛЕКТРОМЕХАНИК</div>
+              </div>
           </div>
-        </div>
-      </div>
-      <!--проблема с 5 фотками(с низу есть просвет)-->
+      </div>      
+      <!--проблема с 5 фотками(с низу есть просвет) на это пока похуй :)-->
       <!--css: photoblock.css-->
       <div class="promo-block container-fluid">
         <div class="head-text-block-photo">
-          <h2><span class="dark-h2">НАШИ <span class="blue-h2">ВЫДАЮЩИЕСЯ</span><br>ВЫПУСКНИКИ</span></h2>
+          <h2>
+            <span class="dark-h2"
+              >НАШИ <span class="blue-h2">ВЫДАЮЩИЕСЯ</span
+              ><br />ВЫПУСКНИКИ</span
+            >
+          </h2>
         </div>
         <div class="row d-flex justify-content-center">
           <div class="photo-wrapper">
             <div>
               <div class="photo-block photo">
-                <img class="graduates" src="./images/photo/blok1.png">
+                <img class="graduates" src="./images/photo/blok1.png" />
               </div>
               <div class="text-photo">
-                <h3>Артем Муляр</h3><br>
-                <p>Чемпион европейского чемпионата профессионального мастерства по компетенции «Фрезерные работы на станках  с ЧПУ»</p>
+                <h3>Артем Муляр</h3>
+                <br />
+                <p>
+                  Чемпион европейского чемпионата профессионального мастерства
+                  по компетенции «Фрезерные работы на станках с ЧПУ»
+                </p>
               </div>
             </div>
             <div>
               <div class="photo-block">
-                <img class="graduates" src="./images/photo/blok2.png">
+                <img class="graduates" src="./images/photo/blok2.png" />
               </div>
               <div class="text-photo">
-                <h3>Данил Полозов</h3><br>
-                <p>Чемпион европейского чемпионата профессионального мастерства по компетенции «Токарные работы  на станках с ЧПУ»</p>
-              </div>
-              </div>
-            <div>
-              <div class="photo-block">
-                <img class="graduates" src="./images/photo/blok3.png">
-              </div>
-              <div class="text-photo">
-              <h3>Кристина Савонова</h3><br>
-              <p>Двукратная чемпионка  России соревнований профессионального  мастерства в компетенциях «Сельскохозяйственные биотехнологии»</p>
+                <h3>Данил Полозов</h3>
+                <br />
+                <p>
+                  Чемпион европейского чемпионата профессионального мастерства
+                  по компетенции «Токарные работы на станках с ЧПУ»
+                </p>
               </div>
             </div>
             <div>
               <div class="photo-block">
-                <img class="graduates" src="./images/photo/blok4.png">
+                <img class="graduates" src="./images/photo/blok3.png" />
               </div>
               <div class="text-photo">
-                <h3>Иван Кучеренко</h3><br>
-                <p>Чемпион мира  по компетенции «Интеграция робототехнических систем»</p>
+                <h3>Кристина Савонова</h3>
+                <br />
+                <p>
+                  Двукратная чемпионка России соревнований профессионального
+                  мастерства в компетенциях «Сельскохозяйственныебиотехнологии»
+                </p>
               </div>
             </div>
             <div>
               <div class="photo-block">
-                <img class="graduates" src="">
+                <img class="graduates" src="./images/photo/blok4.png" />
               </div>
               <div class="text-photo">
-                <h3>Ахмед Матиев</h3><br>
-                <p>Медаль за профессионализм на мировом чемпионате профессионального мастерства в компетенции «Полимеханика и автоматизация».</p>
+                <h3>Иван Кучеренко</h3>
+                <br />
+                <p>
+                  Чемпион мира по компетенции «Интеграция робототехнических
+                  систем»
+                </p>
               </div>
-              </div>
+            </div>
             <div>
               <div class="photo-block">
-                <img class="graduates" src="./images/photo/blok6.png">
+                <img class="graduates" src="" />
               </div>
               <div class="text-photo">
-                <h3>Карелия Брандесс</h3><br>
-                <p>Чемпионка мира соревнований профессионального мастерства в компетенции «Сельскохозяйственные биотехнологии FS»</p>
+                <h3>Ахмед Матиев</h3>
+                <br />
+                <p>
+                  Медаль за профессионализм на мировом чемпионате
+                  профессионального мастерства в компетенции «Полимеханика и
+                  автоматизация».
+                </p>
               </div>
-              </div>
+            </div>
             <div>
               <div class="photo-block">
-                <img class="graduates" src="./images/photo/blok7.png">
+                <img class="graduates" src="./images/photo/blok6.png" />
               </div>
               <div class="text-photo">
-                <h3>Максим Гаврилин</h3><br>
-                <p>Чемпион России соревнований профессионального мастерства по компетенции «Геопространственные технологии»</p>
+                <h3>Карелия Брандесс</h3>
+                <br />
+                <p>
+                  Чемпионка мира соревнований профессионального мастерства в
+                  компетенции «Сельскохозяйственные биотехнологии FS»
+                </p>
               </div>
-              </div>
+            </div>
             <div>
               <div class="photo-block">
-                <img class="graduates" src="./images/photo/blok8.png">
+                <img class="graduates" src="./images/photo/blok7.png" />
               </div>
               <div class="text-photo">
-                <h3>Денис Соловьев</h3><br>
-                <p>Бронзовый призер чемпионата профессионального мастерства «Один пояс - один путь» в компетенции «Промышленная робототехника».</p>
+                <h3>Максим Гаврилин</h3>
+                <br />
+                <p>
+                  Чемпион России соревнований профессионального мастерства по
+                  компетенции «Геопространственные технологии»
+                </p>
               </div>
+            </div>
+            <div>
+              <div class="photo-block">
+                <img class="graduates" src="./images/photo/blok8.png" />
               </div>
+              <div class="text-photo">
+                <h3>Денис Соловьев</h3>
+                <br />
+                <p>
+                  Бронзовый призер чемпионата профессионального мастерства «Один
+                  пояс - один путь» в компетенции «Промышленная робототехника».
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="icon-block">
         <div class="row align-items-center text-center">
-          <h1><span class="color1">ГАРАНТИРОВАННОЕ</span><br><span class="color2">ТРУДОУСТРОЙСТВО</span></h1>
-          <p><span class="dark-h2">на ведущие технологические<br> предприятия страны</span></p>
+          <h1>
+            <span class="color1">ГАРАНТИРОВАННОЕ</span><br /><span
+              class="color2"
+              >ТРУДОУСТРОЙСТВО</span
+            >
+          </h1>
+          <p>
+            <span class="dark-h2"
+              >на ведущие технологические<br />
+              предприятия страны</span
+            >
+          </p>
         </div>
         <div>
           <div class="icon-line-one">
-            <img class="icon" src="images/icon/icon1_1.png">
-            <img class="icon" src="images/icon/icon1_2.png">
-            <img class="icon" src="images/icon/icon1_3.png">
-            <img class="icon" src="images/icon/icon1_4.png">
-            <img class="icon" src="images/icon/icon1_5.png">
-            <img class="icon" src="images/icon/icon1_6.png">
+            <img class="icon" src="images/icon/icon1_1.png" />
+            <img class="icon" src="images/icon/icon1_2.png" />
+            <img class="icon" src="images/icon/icon1_3.png" />
+            <img class="icon" src="images/icon/icon1_4.png" />
+            <img class="icon" src="images/icon/icon1_5.png" />
+            <img class="icon" src="images/icon/icon1_6.png" />
           </div>
           <div class="icon-line-two">
-            <img class="icon" src="images/icon/icon2_1.png">
-            <img class="icon" src="images/icon/icon2_2.png">
-            <img class="icon" src="images/icon/icon2_3.png">
-            <img class="icon" src="images/icon/icon2_4.png">
-            <img class="icon" src="images/icon/icon2_5.png">
-            <img class="icon" src="images/icon/icon2_6.png">
-            <img class="icon" src="images/icon/icon2_7.png">
+            <img class="icon" src="images/icon/icon2_1.png" />
+            <img class="icon" src="images/icon/icon2_2.png" />
+            <img class="icon" src="images/icon/icon2_3.png" />
+            <img class="icon" src="images/icon/icon2_4.png" />
+            <img class="icon" src="images/icon/icon2_5.png" />
+            <img class="icon" src="images/icon/icon2_6.png" />
+            <img class="icon" src="images/icon/icon2_7.png" />
           </div>
         </div>
       </div>
-      <!--при переключении блоки махаются местами, фотка под текстом-->
+      <!--теперь всё гуд, осталось только с фоткой разобраться, она должна быть больше :)-->
       <!--css: documentblock.css-->
       <div class="promo-block container-fluid">
         <div class="row align-items-center text-center">
-          <h2><span class="dark-h2">КАКИЕ <span class="blue-h2">ДОКУМЕНТЫ</span><br> ТРЕБУЮТСЯ?</span></h2>
+          <h2>
+            <span class="dark-h2"
+              >КАКИЕ <span class="blue-h2">ДОКУМЕНТЫ</span
+              ><br />ТРЕБУЮТСЯ?</span
+            >
+          </h2>
         </div>
         <div class="d-flex justify-content-center mt-3">
           <ul class="nav nav-pills" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="pills-rf-tab" data-bs-toggle="pill" data-bs-target="#pills-rf" type="button" role="tab" aria-controls="pills-rf" aria-selected="true">
+              <button
+                class="nav-link active"
+                id="pills-rf-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-rf"
+                type="button"
+                role="tab"
+                aria-controls="pills-rf"
+                aria-selected="true"
+              >
                 Я ГРАЖДАНИН РФ
               </button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-other-tab" data-bs-toggle="pill" data-bs-target="#pills-other" type="button" role="tab" aria-controls="pills-other" aria-selected="false">
+              <button
+                class="nav-link"
+                id="pills-other-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-other"
+                type="button"
+                role="tab"
+                aria-controls="pills-other"
+                aria-selected="false"
+              >
                 Я ГРАЖДАНИН ДРУГОЙ СТРАНЫ
               </button>
             </li>
           </ul>
         </div>
-          <div class="tab-content mt-3" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-rf" role="tabpanel" aria-labelledby="pills-rf-tab">
-              <div class="row">
-                <div class="col">
-                  <div class="document-line"><p class="document-text">Паспорт</p></div>
-                  <div class="document-line"><p class="document-text">Аттестат об окончании средней или старшей школы</p></div>
-                  <div class="document-line"><p class="document-text">СНИЛС</p></div>
-                  <div class="document-line"><p class="document-text">ИНН</p></div>
-                  <div class="document-line"><p class="document-text">Фотография 3×4 (4 штуки)</p></div>
-                  <div class="document-line"><p class="document-text">Полис ОМС</p></div>
-                  <div class="document-line"><p class="document-text">Форма справка 086у</p></div>
-              </div>
-                <div class="col">
-                  <img src="./images/document.png" alt="t" class="img-document"/>
+        <div class="tab-content mt-3" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="pills-rf"
+            role="tabpanel"
+            aria-labelledby="pills-rf-tab"
+          >
+            <div class="row">
+              <div class="col-md-8 col-12">
+                <div class="document-line">
+                  <p class="document-text">Паспорт</p>
                 </div>
+                <div class="document-line">
+                  <p class="document-text">
+                    Аттестат об окончании средней или старшей школы
+                  </p>
+                </div>
+                <div class="document-line">
+                  <p class="document-text">СНИЛС</p>
+                </div>
+                <div class="document-line">
+                  <p class="document-text">ИНН</p>
+                </div>
+                <div class="document-line">
+                  <p class="document-text">Фотография 3×4 (4 штуки)</p>
+                </div>
+                <div class="document-line">
+                  <p class="document-text">Полис ОМС</p>
+                </div>
+                <div class="document-line">
+                  <p class="document-text">Форма справка 086у</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-12 text-md-end text-center">
+                <img src="./images/document.png" alt="t" class="img-document" />
               </div>
             </div>
-            <div class="tab-pane fade" id="pills-other" role="tabpanel" aria-labelledby="pills-other-tab">
-              <div class="row">
-                <div class="col">
-                  <div class="document-line"><p class="document-text">Нотариально заверенный перевод паспорта</p></div>
-                  <div class="document-line"><p class="document-text">Вид на жительство (или временная регистрация)</p></div>
-                  <div class="document-line"><p class="document-text">Аттестат и перевод аттестата (в случае отсутствия русскоязычной версии)</p></div>
-                  <div class="document-line"><p class="document-text">Полис медицинского страхования</p></div>
-                  <div class="document-line"><p class="document-text">Форма справки 086у</p></div>
-                  <div class="document-line"><p class="document-text">СНИЛС</p></div>
-                  <div class="document-line"><p class="document-text">Фотография 3×4 (4 штуки)</p></div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-other"
+            role="tabpanel"
+            aria-labelledby="pills-other-tab"
+          >
+            <div class="row">
+              <div class="col-md-8 col-12">
+                <div class="document-line">
+                  <p class="document-text">
+                    Нотариально заверенный перевод паспорта
+                  </p>
                 </div>
-                <div class="col">
-                  <img src="./images/document.png" alt="t" class="img-document"/>
+                <div class="document-line">
+                  <p class="document-text">
+                    Вид на жительство (или временная регистрация)
+                  </p>
                 </div>
+                <div class="document-line">
+                  <p class="document-text">
+                    Аттестат и перевод аттестата (в случае отсутствия
+                    русскоязычной версии)
+                  </p>
+                </div>
+                <div class="document-line">
+                  <p class="document-text">Полис медицинского страхования</p>
+                </div>
+                <div class="document-line">
+                  <p class="document-text">Форма справки 086у</p>
+                </div>
+                <div class="document-line">
+                  <p class="document-text">СНИЛС</p>
+                </div>
+                <div class="document-line">
+                  <p class="document-text">Фотография 3×4 (4 штуки)</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-12 text-md-end text-center">
+                <img src="./images/document.png" alt="t" class="img-document" />
               </div>
             </div>
           </div>
         </div>
-      <!--большие отступы у "col"-->
+      </div>
+      <!--убрал отступы и пофиксил блоки, тебе нужно будет поработать с текстом :)-->
       <!--css: Stepsblokc.css-->
-        <div class="row align-items-center text-center indentation">
-          <h1><span class="dark-h2">ШАГИ</span></h1>
-        </div>
-          <div class="container-step">
-            <div class="row">
-              <div class="col">
-                <div class="container-steps-01">
-                  <p class="steps-01-number">01</p>
-                  <p class="steps-01-text">Запишись на<br> индивидуальную<br> консультацию</p>
-                </div>
-                <div class="container-steps-02">
-                  <p class="steps-02-number">02</p>
-                  <p class="steps-02-text">Выбери программу<br>обучения вместе с нами</p>
-                </div>
-              </div>
-              <div class="col">
-                <div class="container-steps-02">
-                  <p class="steps-02-number">03</p>
-                  <p class="steps-02-text">Подготовь<br>документы</p>
-                </div>
-                <div class="container-steps-04">
-                  <p class="steps-02-number">04</p>
-                  <p class="steps-02-text">Отправь нам необходимые документы</p>
-                </div>
-              </div>
-              <div class="col">
-                <div class="container-steps-02">
-                  <p class="steps-02-number">05</p>
-                  <p class="steps-02-text">Подпиши договор<br>и начинай учиться</p>
-                </div>
-                <div class="container-steps-01">
-                  <h3 class="steps-06-text">Ждем тебя<br> в нашем<br> колледже!</h3>
-                </div>
-              </div>
+      <div class="container-step">
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="container-steps-01">
+              <p class="steps-01-number">01</p>
+              <p class="steps-01-text">
+                Запишись на<br />
+                индивидуальную<br />
+                консультацию
+              </p>
             </div>
+            <div class="container-steps-02">
+              <p class="steps-02-number">02</p>
+              <p class="steps-02-text">
+                Выбери программу<br />обучения вместе с нами
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="container-steps-02">
+              <p class="steps-02-number">03</p>
+              <p class="steps-02-text">Подготовь<br />документы</p>
+            </div>
+            <div class="container-steps-04">
+              <p class="steps-02-number">04</p>
+              <p class="steps-02-text">Отправь нам необходимые документы</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="container-steps-05">
+              <p class="steps-02-number">05</p>
+              <p class="steps-02-text">
+                Подпиши договор<br />и начинай учиться
+              </p>
+            </div>
+            <div class="container-steps-06">
+              <h3 class="steps-06-text">
+                Ждем тебя<br />
+                в нашем<br />
+                колледже!
+              </h3>
+            </div>
+          </div>
         </div>
-      <!--input почта выступает-->
+      </div>
+      <!--input почта теперь не выступает :) поправь там кнопки пж-->
       <!--css: consultationlock.css-->
       <div class="consultation-bg-photo">
         <div class="container-consultation">
           <div class="row">
-            <div class="col color-consultation">
-              <h3>ЗАПИШИСЬ<br>НА ИНДИВИДУАЛЬНУЮ<br>КОНСУЛЬТАЦИЮ</h3>
-              <p>Оставь заявку и получи<br> консультацию</p>
+            <div class="col-md-6 color-consultation">
+              <h3>ЗАПИШИСЬ<br />НА ИНДИВИДУАЛЬНУЮ<br />КОНСУЛЬТАЦИЮ</h3>
+              <p>Оставь заявку и получи<br />консультацию</p>
             </div>
-            <div class="col ">
-              <input class=" line-name" type="text" id="name" name="name" placeholder="имя">
+            <div class="col-md-6">
+              <input
+                class="line-name"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="имя"
+              />
               <div class="row">
-                <div class="col col-phone">
-                  <input class="line-phone" type="tel" id="phone" name="phone" placeholder="+7 (999) 99-99" pattern="[7-8]{1} [0-9]{3} [0-9]{3}-[0-9]{2}-[0-9]{2}">
+                <div class="col-12 col-md-6 col-phone">
+                  <input
+                    class="line-phone"
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="+7 (999) 99-99"
+                    pattern="[7-8]{1} [0-9]{3} [0-9]{3}-[0-9]{2}-[0-9]{2}"
+                  />
                 </div>
-                <div class="col col-email">
-                  <input class="line-email" type="email" id="email" name="email" placeholder="почта">
-                </div>
-              </div>
-              <div class="col-12 col-sm text-center text-sm-end">
-                <div class="d-inline-flex button-group">
-                  <button
-                          class="btne btne-primary btne-lg rounded-circle p-0 d-flex align-items-center justify-content-center"
-                          title="Перейти"
-                          aria-label="Перейти"
-                  >
-                    <i class="bi bi-arrow-right-short"></i>
-                  </button>
-                  <button
-                          class="btne btne-primary btne-lg btne-width rounded-0 h-100 flex-grow-1 text-wrap"
-                  >
-                    ПОДАТЬ ЗАЯВКУ
-                  </button>
+                <div class="col-12 col-md-6 col-email">
+                  <input
+                    class="line-email"
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="почта"
+                  />
                 </div>
               </div>
-              <a class="linc-accept" href="">Нажимая на кнопку, я соглашаюсь с политикой обработки персональных данных</a>
+              <div class="row mt-3">
+                <div class="col-12 d-flex justify-content-end">
+                  <div class="button-group">
+                    <button
+                      class="btne btne-primary btne-lg rounded-circle p-0 d-flex align-items-center justify-content-center"
+                      title="Перейти"
+                      aria-label="Перейти"
+                    >
+                      <i class="bi bi-arrow-right-short"></i>
+                    </button>
+                    <button
+                      class="btne btne-primary btne-lg btne-width rounded-0 h-100 flex-grow-1 text-wrap"
+                    >
+                      ПОДАТЬ ЗАЯВКУ
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <a class="linc-accept" href="">
+                Нажимая на кнопку, я соглашаюсь с политикой обработки
+                персональных данных
+              </a>
             </div>
           </div>
         </div>

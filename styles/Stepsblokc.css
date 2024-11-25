@@ -1,81 +1,78 @@
-.indentation {
-    margin-top: 80px;
-    margin-bottom: 71px;
-    margin-left: 100px;
-}
-
 .container-step {
-    margin-left: 100px;
-    margin-bottom: 78px;
+  margin-bottom: 78px;
 }
 
-.container-steps-01 {
-    width: 387px;
-    height: 206px;
-    border-radius: 20px;
-    margin-right: 19px;
-    background-color: #3838ce;
+.container-steps-01,
+.container-steps-04,
+.container-steps-06 {
+  width: 100%;
+  max-width: 387px;
+  height: 206px;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 18px;
+}
+
+.container-steps-02,
+.container-steps-03,
+.container-steps-05 {
+  width: 100%;
+  max-width: 387px;
+  height: 139px;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 17px;
+}
+
+.container-steps-01,
+.container-steps-06 {
+  background-color: #3838ce;
+}
+
+.container-steps-02,
+.container-steps-04,
+.container-steps-05 {
+  background-color: #b8e904;
+}
+
+.steps-01-number,
+.steps-02-number {
+  width: 54px;
+  height: 33px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  margin: 15px 25px;
+  line-height: 33px;
 }
 
 .steps-01-number {
-    width: 54px;
-    height: 33px;
-    border-radius: 20px;
-    margin-top: 15px;
-    margin-left: 25px;
-    text-align: center;
-    color: #3838ce;
-    background-color: #FFFFFF;
-}
-
-.steps-01-text {
-    color: #FFFFFF;
-    margin-left: 25px;
-    text-align: left;
-}
-
-.container-steps-02 {
-    width: 387px;
-    height: 139px;
-    border-radius: 20px;
-    margin-right: 19px;
-    margin-bottom: 17px;
-    background-color: #b8e904;
+  color: #3838ce;
 }
 
 .steps-02-number {
-    width: 54px;
-    height: 33px;
-    border-radius: 20px;
-    margin-top: 21px;
-    margin-left: 49px;
-    text-align: center;
-    color: #FFFFFF;
-    background-color: #3838ce;
+  color: #ffffff;
+  background-color: #3838ce;
 }
 
-.steps-02-text {
-    color: #52515f;
-    margin-left: 49px;
-    text-align: left;
+.steps-01-text,
+.steps-02-text,
+.steps-06-text {
+  margin: 20px 0 0 25px;
+  text-align: left;
 }
 
-.container-steps-04 {
-    width: 387px;
-    height: 206px;
-    border-radius: 20px;
-    margin-right: 19px;
-    background-color: #b8e904;
+.steps-01-text {
+  color: #ffffff;
 }
 
-.container-steps-06 {
-    width: 387px;
-    height: 206px;
-    border-radius: 20px;
-    background-color: #3838ce;
+.steps-02-text,
+.steps-05-text {
+  color: #52515f;
 }
 
 .steps-06-text {
-    color: #FFFFFF;
-    text-align: center;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 50px;
 }
