@@ -1,7 +1,20 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+@font-face {
+  font-family: "MONT";
+  src: url("/fonts/MONT-REGULAR.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: "MONT";
+  src: url("/fonts/MONT-BOLD.TTF") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+:root {
+  font-family: "MONT", sans-serif;
+  line-height: 1.5;
   max-width: 1600px;
   margin: 0 auto;
   padding: 20px;
