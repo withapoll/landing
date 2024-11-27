@@ -24,9 +24,12 @@
   margin-bottom: 17px;
 }
 
-.container-steps-01,
-.container-steps-06 {
+.container-steps-01 {
   background-color: #3838ce;
+}
+
+.container-steps-06 {
+  background-image: url(../images/Frame.png);
 }
 
 .container-steps-02,

@@ -38,5 +38,17 @@
   width: 590px;
   height: 540px;
   max-width: 100%;
-  height: auto;
+  max-height: 540px;
+}
+
+.marg-button {
+  margin-bottom: 60px;
+}
+
+.wh-col-text-line {
+  width: 610px;
+}
+
+.wh-col-photo-block {
+  width: 590px;
 }

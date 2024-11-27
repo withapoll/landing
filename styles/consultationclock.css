@@ -1,8 +1,8 @@
 .consultation-bg-photo {
   display: flex;
   width: 100%;
-  height: auto;
-  background-image: url("../images/vector.jpg");
+  height: 616px;
+  background-image: url("../images/vector.png");
   background-size: cover;
   align-items: center;
   padding: 20px;
@@ -16,6 +16,10 @@
   border-radius: 50px;
   padding: 55px;
   margin: 0 auto;
+}
+
+.col-wh {
+  width: 500px;
 }
 
 .color-consultation {
@@ -40,16 +44,12 @@
   box-sizing: border-box;
 }
 
-.col-phone,
-.col-email {
-  padding-left: 5px;
-  padding-right: 5px;
+::-webkit-input-placeholder  {
+  color: #ffffff;
 }
 
 .btne.btne-width {
-  width: 100%;
-  max-width: 40px;
-  min-width: 200px;
+  width: 418px;
 }
 
 .btne-lg {
@@ -89,9 +89,9 @@
   align-items: center;
 }
 
-.button-group button {
-  margin-left: 10px;
-}
+/*.button-group button {*/
+/*  margin-left: 10px;*/
+/*}*/
 
 .linc-accept {
   color: #ffffff;
