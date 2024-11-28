@@ -1,6 +1,12 @@
 .head-text-block-photo {
-    margin-top: 81px;
+    margin-top: 60px;
     margin-bottom: 31px;
+}
+
+.text-font-photo {
+    font-family: "MONT", sans-serif;
+    font-weight: 800;
+    text-align: center;
 }
 
 .photo-wrapper {
@@ -29,8 +35,13 @@
 
 .text-photo h3{
     color: #3838ce;
+    font-family: "MONT", sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
 }
 
 .text-photo p{
     color: #52515f;
+    font-family: "MONT", sans-serif;
+    font-weight: 600;
 }

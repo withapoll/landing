@@ -5,6 +5,11 @@
   margin-bottom: 100px;
 }
 
+.text-font {
+  font-family: "MONT", sans-serif;
+  font-weight: 800;
+}
+
 .line-container {
   overflow: hidden;
   white-space: nowrap;
@@ -27,6 +32,8 @@
   white-space: nowrap;
   box-sizing: border-box;
   display: inline-block;
+  font-family: "MONT", sans-serif;
+  font-weight: 600;
 }
 
 .slope-text-circle {
@@ -39,19 +46,19 @@
 
 @keyframes scroll {
   0% {
-    transform: translateX(100%);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
 
 @keyframes scroll-rid {
   0% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
   100% {
-    transform: translateX(100%);
+    transform: translateX(0);
   }
 }
 

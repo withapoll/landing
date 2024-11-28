@@ -13,7 +13,7 @@
   max-width: 1202px;
   height: auto;
   background-color: #3838ce;
-  border-radius: 50px;
+  border-radius: 80px;
   padding: 55px;
   margin: 0 auto;
 }
@@ -27,7 +27,17 @@
 }
 
 .color-consultation p {
-  margin-top: 20px;
+  margin-top: 60px;
+}
+
+.text-font-consul h3 {
+  font-family: "MONT", sans-serif;
+  font-weight: 800;
+}
+
+.text-font-consul p {
+  font-family: "MONT", sans-serif;
+  font-weight: 600;
 }
 
 .line-name,
@@ -46,6 +56,9 @@
 
 ::-webkit-input-placeholder  {
   color: #ffffff;
+  opacity: 0.5;
+  font-family: "MONT", sans-serif;
+  font-weight: 600;
 }
 
 .btne.btne-width {
@@ -61,6 +74,9 @@
   justify-content: center;
   transition: background-color 0.3s, transform 0.3s;
   border: none;
+  font-family: "MONT", sans-serif;
+  font-weight: 600;
+  color: #52515f;
 }
 
 .btne-lg:hover {
@@ -89,12 +105,10 @@
   align-items: center;
 }
 
-/*.button-group button {*/
-/*  margin-left: 10px;*/
-/*}*/
-
 .linc-accept {
   color: #ffffff;
   display: block;
   margin-top: 20px;
+  font-family: "MONT", sans-serif;
+  font-weight: 600;
 }
