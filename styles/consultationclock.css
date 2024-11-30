@@ -26,16 +26,16 @@
   color: #ffffff;
 }
 
-.color-consultation p {
-  margin-top: 60px;
+.color-consultation h3 {
+  margin-top: 140px;
 }
 
-.text-font-consul h3 {
+.text-font-consul h2 {
   font-family: "MONT", sans-serif;
   font-weight: 800;
 }
 
-.text-font-consul p {
+.text-font-consul h3 {
   font-family: "MONT", sans-serif;
   font-weight: 600;
 }
@@ -59,6 +59,37 @@
   opacity: 0.5;
   font-family: "MONT", sans-serif;
   font-weight: 600;
+}
+
+input[type="radio"] {
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: 0;
+  background: #ffffff;
+  height: 28px;
+  width: 28px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+input[type="radio"]:after {
+  content: '';
+  position: relative;
+  left: 40%;
+  top: 20%;
+  width: 15%;
+  height: 40%;
+  border: solid #000000;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  display: none;
+}
+input[type="radio"]:checked:after {
+  display: block;
 }
 
 .btne.btne-width {
@@ -111,4 +142,29 @@
   margin-top: 20px;
   font-family: "MONT", sans-serif;
   font-weight: 600;
+}
+
+.col-width-cons {
+  width: 440px;
+}
+
+.col-width-cons-radio {
+  width: 40px;
+}
+
+@media screen and (max-width: 576px) {
+  .container-consultation {
+    width: 300px;
+  }
+
+  .line-name,
+  .line-phone,
+  .line-email {
+    width: 100%;
+    height: 50px;
+  }
+
+  .color-consultation h3 {
+    margin-top: 5px;
+  }
 }

@@ -8,13 +8,17 @@
   font-weight: 800;
 }
 
+.marg-steps {
+  margin-bottom: 71px;
+}
+
 .container-steps-01,
 .container-steps-04,
 .container-steps-06 {
   width: 100%;
   max-width: 387px;
   height: 206px;
-  border-radius: 20px;
+  border-radius: 30px;
   padding: 20px;
   margin-bottom: 18px;
 }
@@ -25,7 +29,7 @@
   width: 100%;
   max-width: 387px;
   height: 139px;
-  border-radius: 20px;
+  border-radius: 30px;
   padding: 20px;
   margin-bottom: 17px;
 }
@@ -35,7 +39,9 @@
 }
 
 .container-steps-06 {
-  background-image: url(../images/Frame.png);
+  background: url(../images/Frame.png) no-repeat;
+  padding: 20px;
+  background-size: cover;
 }
 
 .container-steps-02,
@@ -48,10 +54,10 @@
 .steps-02-number {
   width: 54px;
   height: 33px;
-  border-radius: 20px;
+  border-radius: 100px;
   text-align: center;
   background-color: #ffffff;
-  margin: 15px 25px;
+  margin: 5px 8px;
   line-height: 33px;
 }
 
@@ -66,16 +72,23 @@
 
 .steps-01-text,
 .steps-02-text,
+.steps-04-text,
 .steps-06-text {
-  margin: 20px 0 0 25px;
+  margin: 5px 0 0 8px;
   text-align: left;
 }
 
 .steps-01-text {
   color: #ffffff;
+  margin-top: 40px;
+}
+
+.steps-04-text {
+  margin-top: 40px;
 }
 
 .steps-02-text,
+.steps-04-text,
 .steps-05-text {
   color: #52515f;
 }
@@ -83,7 +96,7 @@
 .steps-06-text {
   text-align: center;
   color: #ffffff;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .text-font-steps-block {
@@ -94,4 +107,21 @@
 .text-font-steps-number {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
+}
+
+@media screen and (max-width: 576px){
+
+  .container-steps-01,
+  .container-steps-06 {
+    width: 300px;
+    height: 160px;
+  }
+
+  .container-steps-02,
+  .container-steps-03,
+  .container-steps-04,
+  .container-steps-05 {
+    width: 300px;
+    height: 135px;
+  }
 }

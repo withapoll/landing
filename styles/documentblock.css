@@ -59,3 +59,19 @@
 .wh-col-photo-block {
   width: 590px;
 }
+
+@media screen and (max-width: 576px) {
+  .document-line {
+    width: 100%;
+    text-align: left;
+  }
+
+  .nav-link.active {
+    width: 100% !important;
+  }
+
+  .nav-pills {
+    height: 120px;
+    border-radius: 30px;
+  }
+}

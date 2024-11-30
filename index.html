@@ -192,7 +192,7 @@
       </div>      
       <!--проблема с 5 фотками(с низу есть просвет) на это пока похуй :)-->
       <!--css: photoblock.css-->
-      <div class="promo-block container-fluid">
+      <div class="promo-block">
         <div class="head-text-block-photo">
           <h2 class="text-center-doc-block">
             <span class="dark-h2 text-font-photo"
@@ -347,6 +347,7 @@
               <img class="icon" src="images/icon/icon2_6.png" />
               <img class="icon" src="images/icon/icon2_7.png" />
             </div>
+          </div>
         </div>
       </div>
       <!--теперь всё гуд, осталось только с фоткой разобраться, она должна быть больше :)-->
@@ -477,42 +478,42 @@
       <!--убрал отступы и пофиксил блоки, тебе нужно будет поработать с текстом :)-->
       <!--css: Stepsblokc.css-->
       <div class="container-step">
-        <div class="row align-items-center text-center indentation">
+        <div class="align-items-center text-center indentation marg-steps">
           <h1><span class="dark-h2 text-font-steps">ШАГИ</span></h1>
         </div>
         <div class="row">
           <div class="col-md-4 mb-3">
             <div class="container-steps-01">
-              <p class="steps-01-number text-font-steps-number">01</p>
-              <p class="steps-01-text text-font-steps-block">
+              <h3 class="steps-01-number text-font-steps-number">01</h3>
+              <h3 class="steps-01-text text-font-steps-block">
                 Запишись на<br />
                 индивидуальную<br />
                 консультацию
-              </p>
+              </h3>
             </div>
             <div class="container-steps-02">
-              <p class="steps-02-number text-font-steps-number">02</p>
-              <p class="steps-02-text text-font-steps-block">
+              <h3 class="steps-02-number text-font-steps-number">02</h3>
+              <h3 class="steps-02-text text-font-steps-block">
                 Выбери программу<br />обучения вместе с нами
-              </p>
+              </h3>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="container-steps-02">
-              <p class="steps-02-number text-font-steps-number">03</p>
-              <p class="steps-02-text text-font-steps-block">Подготовь<br />документы</p>
+              <h3 class="steps-02-number text-font-steps-number">03</h3>
+              <h3 class="steps-02-text text-font-steps-block">Подготовь<br />документы</h3>
             </div>
             <div class="container-steps-04">
-              <p class="steps-02-number text-font-steps-number">04</p>
-              <p class="steps-02-text text-font-steps-block">Отправь нам необходимые документы</p>
+              <h3 class="steps-02-number text-font-steps-number">04</h3>
+              <h3 class="steps-04-text text-font-steps-block">Отправь нам<br /> необходимые<br /> документы</h3>
             </div>
           </div>
           <div class="col-md-4 mb-3 ">
             <div class="container-steps-05">
-              <p class="steps-02-number text-font-steps-number">05</p>
-              <p class="steps-02-text text-font-steps-block">
+              <h3 class="steps-02-number text-font-steps-number">05</h3>
+              <h3 class="steps-02-text text-font-steps-block">
                 Подпиши договор<br />и начинай учиться
-              </p>
+              </h3>
             </div>
             <div class="container-steps-06">
               <h3 class="steps-06-text text-font-steps">
@@ -530,8 +531,8 @@
         <div class="container-consultation">
           <div class="row">
             <div class="col-md-6 color-consultation text-font-consul">
-              <h3>ЗАПИШИСЬ<br />НА ИНДИВИДУАЛЬНУЮ<br />КОНСУЛЬТАЦИЮ</h3>
-              <p>Оставь заявку и получи<br />консультацию</p>
+              <h2>ЗАПИШИСЬ<br />НА ИНДИВИДУАЛЬНУЮ<br />КОНСУЛЬТАЦИЮ</h2>
+              <h3>Оставь заявку и получи<br />консультацию</h3>
             </div>
             <div class="col-md-6 col-wh">
               <input
@@ -580,10 +581,17 @@
                   </div>
                 </div>
               </div>
-              <a class="linc-accept" href="">
-                Нажимая на кнопку, я соглашаюсь с политикой обработки
-                персональных данных
-              </a>
+              <div class="row mt-2">
+                <div class="col-2 col-width-cons-radio">
+                  <input type="radio" onMouseDown="this.isChecked=this.checked;" onClick="this.checked=!this.isChecked;">
+                </div>
+                <div class="col-2 col-width-cons">
+                  <a class="linc-accept" href="">
+                    Нажимая на кнопку, я соглашаюсь с политикой обработки
+                    персональных данных
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
