@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Приемная комиссия МГОК</title>
     <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
@@ -24,6 +29,7 @@
     <link href="styles/documentblock.css" rel="stylesheet" />
     <link href="styles/Stepsblokc.css" rel="stylesheet" />
     <link href="styles/consultationclock.css" rel="stylesheet" />
+    <link href="styles/swiper.css" rel="stylesheet" />
   </head>
   <body>
     <div id="root" class="container-fluid py-2">
@@ -82,8 +88,10 @@
       <!--Да, ты прав, спасибо исправил :)-->
       <div class="promo-block container-fluid">
         <div class="row align-items-center text-center">
-          <h2 class="dark-h2"><br>КТО МОЖЕТ ПОСТУПИТЬ<br />
-            <span class="blue-h2">В НАШ КОЛЛЕДЖ?</span></h2>
+          <h2 class="dark-h2">
+            <br />КТО МОЖЕТ ПОСТУПИТЬ<br />
+            <span class="blue-h2">В НАШ КОЛЛЕДЖ?</span>
+          </h2>
         </div>
         <div class="row d-flex justify-content-center otstup">
           <div class="info-wrapper">
@@ -126,70 +134,100 @@
         <!--фиксанул баг с анимацией, все работает :) посмотри как можно её сделать так, чтобы она работала так - заканчивается в одной стороне, а начинается в другой без перерыва-->
         <div class="pov">
           <div class="line-container">
-              <div class="line marquee">
-                <div class="slope-text-box">ТОКАРЬ</div>
-                <div class="slope-text-circle">ТЕСТИРОВЩИК</div>
-                <div class="slope-text-box">ТЕХНИК ПО ЗАЩИТЕ ИНФОРМАЦИИ</div>
-                <div class="slope-text-circle">СЛЕСАРЬ</div>
-                <div class="slope-text-box">НАЛАДЧИК СТАНКОВ И МАНИПУЛЯТОРОВ С ПРОГРАММНЫМ УПРАВЛЕНИЕМ</div>
-                <div class="slope-text-circle">СТАНОЧНИК ШИРОКОГО ПРОФИЛЯ</div>
-                <div class="slope-text-box">ТОКАРЬ</div>
-                <div class="slope-text-circle">ТЕСТИРОВЩИК</div>
-                <div class="slope-text-box">ТЕХНИК ПО ЗАЩИТЕ ИНФОРМАЦИИ</div>
-                <div class="slope-text-circle">СЛЕСАРЬ</div>
-                <div class="slope-text-box">НАЛАДЧИК СТАНКОВ И МАНИПУЛЯТОРОВ С ПРОГРАММНЫМ УПРАВЛЕНИЕМ</div>
-                <div class="slope-text-circle">СТАНОЧНИК ШИРОКОГО ПРОФИЛЯ</div>
-                <div class="slope-text-box">ТОКАРЬ</div>
-                <div class="slope-text-circle">ТЕСТИРОВЩИК</div>
-                <div class="slope-text-box">ТЕХНИК ПО ЗАЩИТЕ ИНФОРМАЦИИ</div>
-                <div class="slope-text-circle">СЛЕСАРЬ</div>
-                <div class="slope-text-box">НАЛАДЧИК СТАНКОВ И МАНИПУЛЯТОРОВ С ПРОГРАММНЫМ УПРАВЛЕНИЕМ</div>
-                <div class="slope-text-circle">СТАНОЧНИК ШИРОКОГО ПРОФИЛЯ</div>
+            <div class="line marquee">
+              <div class="slope-text-box">ТОКАРЬ</div>
+              <div class="slope-text-circle">ТЕСТИРОВЩИК</div>
+              <div class="slope-text-box">ТЕХНИК ПО ЗАЩИТЕ ИНФОРМАЦИИ</div>
+              <div class="slope-text-circle">СЛЕСАРЬ</div>
+              <div class="slope-text-box">
+                НАЛАДЧИК СТАНКОВ И МАНИПУЛЯТОРОВ С ПРОГРАММНЫМ УПРАВЛЕНИЕМ
               </div>
+              <div class="slope-text-circle">СТАНОЧНИК ШИРОКОГО ПРОФИЛЯ</div>
+              <div class="slope-text-box">ТОКАРЬ</div>
+              <div class="slope-text-circle">ТЕСТИРОВЩИК</div>
+              <div class="slope-text-box">ТЕХНИК ПО ЗАЩИТЕ ИНФОРМАЦИИ</div>
+              <div class="slope-text-circle">СЛЕСАРЬ</div>
+              <div class="slope-text-box">
+                НАЛАДЧИК СТАНКОВ И МАНИПУЛЯТОРОВ С ПРОГРАММНЫМ УПРАВЛЕНИЕМ
+              </div>
+              <div class="slope-text-circle">СТАНОЧНИК ШИРОКОГО ПРОФИЛЯ</div>
+              <div class="slope-text-box">ТОКАРЬ</div>
+              <div class="slope-text-circle">ТЕСТИРОВЩИК</div>
+              <div class="slope-text-box">ТЕХНИК ПО ЗАЩИТЕ ИНФОРМАЦИИ</div>
+              <div class="slope-text-circle">СЛЕСАРЬ</div>
+              <div class="slope-text-box">
+                НАЛАДЧИК СТАНКОВ И МАНИПУЛЯТОРОВ С ПРОГРАММНЫМ УПРАВЛЕНИЕМ
+              </div>
+              <div class="slope-text-circle">СТАНОЧНИК ШИРОКОГО ПРОФИЛЯ</div>
+            </div>
           </div>
           <div class="line-container">
-              <div class="line marquee-rid">
-                <div class="slope-text-circle">СЕТЕВОЙ И СИСТЕМНЫЙ АДМИНИСТРАТОР</div>
-                <div class="slope-text-box">ИНЖЕНЕР-ПРОГРАММИСТ</div>
-                <div class="slope-text-circle">ГРАФИЧЕСКИЙ ДИЗАЙНЕР</div>
-                <div class="slope-text-box">ОПЕРАТОР СТАНКОВ С ПРОГРАММНЫМ УПРАВЛЕНИЕМ</div>
-                <div class="slope-text-circle">ФАРМАЦЕВТ</div>
-                <div class="slope-text-box">СТАНОЧНИК ШИРОКОГО ПРОФИЛЯ</div>
-                <div class="slope-text-circle">СЕТЕВОЙ И СИСТЕМНЫЙ АДМИНИСТРАТОР</div>
-                <div class="slope-text-box">ИНЖЕНЕР-ПРОГРАММИСТ</div>
-                <div class="slope-text-circle">ГРАФИЧЕСКИЙ ДИЗАЙНЕР</div>
-                <div class="slope-text-box">ОПЕРАТОР СТАНКОВ С ПРОГРАММНЫМ УПРАВЛЕНИЕМ</div>
-                <div class="slope-text-circle">ФАРМАЦЕВТ</div>
-                <div class="slope-text-box">СТАНОЧНИК ШИРОКОГО ПРОФИЛЯ</div>
-                <div class="slope-text-circle">СЕТЕВОЙ И СИСТЕМНЫЙ АДМИНИСТРАТОР</div>
-                <div class="slope-text-box">ИНЖЕНЕР-ПРОГРАММИСТ</div>
-                <div class="slope-text-circle">ГРАФИЧЕСКИЙ ДИЗАЙНЕР</div>
-                <div class="slope-text-box">ОПЕРАТОР СТАНКОВ С ПРОГРАММНЫМ УПРАВЛЕНИЕМ</div>
-                <div class="slope-text-circle">ФАРМАЦЕВТ</div>
-                <div class="slope-text-box">СТАНОЧНИК ШИРОКОГО ПРОФИЛЯ</div>
+            <div class="line marquee-rid">
+              <div class="slope-text-circle">
+                СЕТЕВОЙ И СИСТЕМНЫЙ АДМИНИСТРАТОР
               </div>
+              <div class="slope-text-box">ИНЖЕНЕР-ПРОГРАММИСТ</div>
+              <div class="slope-text-circle">ГРАФИЧЕСКИЙ ДИЗАЙНЕР</div>
+              <div class="slope-text-box">
+                ОПЕРАТОР СТАНКОВ С ПРОГРАММНЫМ УПРАВЛЕНИЕМ
+              </div>
+              <div class="slope-text-circle">ФАРМАЦЕВТ</div>
+              <div class="slope-text-box">СТАНОЧНИК ШИРОКОГО ПРОФИЛЯ</div>
+              <div class="slope-text-circle">
+                СЕТЕВОЙ И СИСТЕМНЫЙ АДМИНИСТРАТОР
+              </div>
+              <div class="slope-text-box">ИНЖЕНЕР-ПРОГРАММИСТ</div>
+              <div class="slope-text-circle">ГРАФИЧЕСКИЙ ДИЗАЙНЕР</div>
+              <div class="slope-text-box">
+                ОПЕРАТОР СТАНКОВ С ПРОГРАММНЫМ УПРАВЛЕНИЕМ
+              </div>
+              <div class="slope-text-circle">ФАРМАЦЕВТ</div>
+              <div class="slope-text-box">СТАНОЧНИК ШИРОКОГО ПРОФИЛЯ</div>
+              <div class="slope-text-circle">
+                СЕТЕВОЙ И СИСТЕМНЫЙ АДМИНИСТРАТОР
+              </div>
+              <div class="slope-text-box">ИНЖЕНЕР-ПРОГРАММИСТ</div>
+              <div class="slope-text-circle">ГРАФИЧЕСКИЙ ДИЗАЙНЕР</div>
+              <div class="slope-text-box">
+                ОПЕРАТОР СТАНКОВ С ПРОГРАММНЫМ УПРАВЛЕНИЕМ
+              </div>
+              <div class="slope-text-circle">ФАРМАЦЕВТ</div>
+              <div class="slope-text-box">СТАНОЧНИК ШИРОКОГО ПРОФИЛЯ</div>
+            </div>
           </div>
           <div class="line-container">
-              <div class="line marquee">
-                <div class="slope-text-box">ОПЕРАТОР 3D ПЕЧАТИ</div>
-                <div class="slope-text-circle">ПРОГРАММИСТ</div>
-                <div class="slope-text-box">МОНТАЖНИК ЭЛЕКТРООБОРУДОВАНИЯ ЛЕТАТЕЛЬНЫХ АППАРАТОВ</div>
-                <div class="slope-text-circle">МОНТАЖНИК РАДИОЭЛЕКТРОННОЙ АППАРАТУРЫ И ПРИБОРОВ</div>
-                <div class="slope-text-box">ЭЛЕКТРОМЕХАНИК</div>
-                <div class="slope-text-box">ОПЕРАТОР 3D ПЕЧАТИ</div>
-                <div class="slope-text-circle">ПРОГРАММИСТ</div>
-                <div class="slope-text-box">МОНТАЖНИК ЭЛЕКТРООБОРУДОВАНИЯ ЛЕТАТЕЛЬНЫХ АППАРАТОВ</div>
-                <div class="slope-text-circle">МОНТАЖНИК РАДИОЭЛЕКТРОННОЙ АППАРАТУРЫ И ПРИБОРОВ</div>
-                <div class="slope-text-box">ЭЛЕКТРОМЕХАНИК</div>
-                <div class="slope-text-box">ОПЕРАТОР 3D ПЕЧАТИ</div>
-                <div class="slope-text-circle">ПРОГРАММИСТ</div>
-                <div class="slope-text-box">МОНТАЖНИК ЭЛЕКТРООБОРУДОВАНИЯ ЛЕТАТЕЛЬНЫХ АППАРАТОВ</div>
-                <div class="slope-text-circle">МОНТАЖНИК РАДИОЭЛЕКТРОННОЙ АППАРАТУРЫ И ПРИБОРОВ</div>
-                <div class="slope-text-box">ЭЛЕКТРОМЕХАНИК</div>
+            <div class="line marquee">
+              <div class="slope-text-box">ОПЕРАТОР 3D ПЕЧАТИ</div>
+              <div class="slope-text-circle">ПРОГРАММИСТ</div>
+              <div class="slope-text-box">
+                МОНТАЖНИК ЭЛЕКТРООБОРУДОВАНИЯ ЛЕТАТЕЛЬНЫХ АППАРАТОВ
               </div>
+              <div class="slope-text-circle">
+                МОНТАЖНИК РАДИОЭЛЕКТРОННОЙ АППАРАТУРЫ И ПРИБОРОВ
+              </div>
+              <div class="slope-text-box">ЭЛЕКТРОМЕХАНИК</div>
+              <div class="slope-text-box">ОПЕРАТОР 3D ПЕЧАТИ</div>
+              <div class="slope-text-circle">ПРОГРАММИСТ</div>
+              <div class="slope-text-box">
+                МОНТАЖНИК ЭЛЕКТРООБОРУДОВАНИЯ ЛЕТАТЕЛЬНЫХ АППАРАТОВ
+              </div>
+              <div class="slope-text-circle">
+                МОНТАЖНИК РАДИОЭЛЕКТРОННОЙ АППАРАТУРЫ И ПРИБОРОВ
+              </div>
+              <div class="slope-text-box">ЭЛЕКТРОМЕХАНИК</div>
+              <div class="slope-text-box">ОПЕРАТОР 3D ПЕЧАТИ</div>
+              <div class="slope-text-circle">ПРОГРАММИСТ</div>
+              <div class="slope-text-box">
+                МОНТАЖНИК ЭЛЕКТРООБОРУДОВАНИЯ ЛЕТАТЕЛЬНЫХ АППАРАТОВ
+              </div>
+              <div class="slope-text-circle">
+                МОНТАЖНИК РАДИОЭЛЕКТРОННОЙ АППАРАТУРЫ И ПРИБОРОВ
+              </div>
+              <div class="slope-text-box">ЭЛЕКТРОМЕХАНИК</div>
+            </div>
           </div>
         </div>
-      </div>      
+      </div>
       <!--проблема с 5 фотками(с низу есть просвет) на это пока похуй :)-->
       <!--css: photoblock.css-->
       <div class="promo-block">
@@ -202,122 +240,155 @@
           </h2>
         </div>
         <div class="row d-flex justify-content-center">
-          <div class="photo-wrapper">
-            <div>
-              <div class="photo-block photo">
-                <img class="graduates" src="./images/photo/blok1.png" />
+          <div class="swiper-container photo-wrapper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="photo-block">
+                  <img
+                    class="graduates"
+                    src="./images/photo/blok1.png"
+                    alt="Артем Муляр"
+                  />
+                  <div class="text-photo">
+                    <h3>Артем Муляр</h3>
+                    <p>
+                      Чемпион европейского чемпионата профессионального
+                      мастерства по компетенции «Фрезерные работы на станках с
+                      ЧПУ»
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div class="text-photo">
-                <h3>Артем Муляр</h3>
-                <br />
-                <p>
-                  Чемпион европейского чемпионата профессионального мастерства
-                  по компетенции «Фрезерные работы на станках с ЧПУ»
-                </p>
+              <div class="swiper-slide">
+                <div class="photo-block">
+                  <img
+                    class="graduates"
+                    src="./images/photo/blok2.png"
+                    alt="Данил Полозов"
+                  />
+                  <div class="text-photo">
+                    <h3>Данил Полозов</h3>
+                    <p>
+                      Чемпион европейского чемпионата профессионального
+                      мастерства по компетенции «Токарные работы на станках с
+                      ЧПУ»
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="photo-block">
+                  <img
+                    class="graduates"
+                    src="./images/photo/blok3.png"
+                    alt="Кристина Савонова"
+                  />
+                  <div class="text-photo">
+                    <h3>Кристина Савонова</h3>
+                    <p>
+                      Двукратная чемпионка России соревнований профессионального
+                      мастерства в компетенциях
+                      «Сельскохозяйственныебиотехнологии»
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="photo-block">
+                  <img
+                    class="graduates"
+                    src="./images/photo/blok4.png"
+                    alt="Иван Кучеренко"
+                  />
+                  <div class="text-photo">
+                    <h3>Иван Кучеренко</h3>
+                    <p>
+                      Чемпион мира по компетенции «Интеграция робототехнических
+                      систем»
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="photo-block">
+                  <img
+                    class="graduates"
+                    src="./images/photo/blok5.png"
+                    alt="Ахмед Матиев"
+                  />
+                  <div class="text-photo">
+                    <h3>Ахмед Матиев</h3>
+                    <p>
+                      Медаль за профессионализм на мировом чемпионате
+                      профессионального мастерства в компетенции «Полимеханика и
+                      автоматизация».
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="photo-block">
+                  <img
+                    class="graduates"
+                    src="./images/photo/blok6.png"
+                    alt="Карелия Брандесс"
+                  />
+                  <div class="text-photo">
+                    <h3>Карелия Брандесс</h3>
+                    <p>
+                      Чемпионка мира соревнований профессионального мастерства в
+                      компетенции «Сельскохозяйственные биотехнологии FS»
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="photo-block">
+                  <img
+                    class="graduates"
+                    src="./images/photo/blok7.png"
+                    alt="Максим Гаврилин"
+                  />
+                  <div class="text-photo">
+                    <h3>Максим Гаврилин</h3>
+                    <p>
+                      Чемпион России соревнований профессионального мастерства
+                      по компетенции «Геопространственные технологии»
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="photo-block">
+                  <img
+                    class="graduates"
+                    src="./images/photo/blok8.png"
+                    alt="Денис Соловьев"
+                  />
+                  <div class="text-photo">
+                    <h3>Денис Соловьев</h3>
+                    <p>
+                      Бронзовый призер чемпионата профессионального мастерства
+                      «Один пояс - один путь» в компетенции «Промышленная
+                      робототехника».
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div>
-              <div class="photo-block">
-                <img class="graduates" src="./images/photo/blok2.png" />
-              </div>
-              <div class="text-photo">
-                <h3>Данил Полозов</h3>
-                <br />
-                <p>
-                  Чемпион европейского чемпионата профессионального мастерства
-                  по компетенции «Токарные работы на станках с ЧПУ»
-                </p>
-              </div>
-            </div>
-            <div>
-              <div class="photo-block">
-                <img class="graduates" src="./images/photo/blok3.png" />
-              </div>
-              <div class="text-photo">
-                <h3>Кристина Савонова</h3>
-                <br />
-                <p>
-                  Двукратная чемпионка России соревнований профессионального
-                  мастерства в компетенциях «Сельскохозяйственныебиотехнологии»
-                </p>
-              </div>
-            </div>
-            <div>
-              <div class="photo-block">
-                <img class="graduates" src="./images/photo/blok4.png" />
-              </div>
-              <div class="text-photo">
-                <h3>Иван Кучеренко</h3>
-                <br />
-                <p>
-                  Чемпион мира по компетенции «Интеграция робототехнических
-                  систем»
-                </p>
-              </div>
-            </div>
-            <div>
-              <div class="photo-block">
-                <img class="graduates" src="" />
-              </div>
-              <div class="text-photo">
-                <h3>Ахмед Матиев</h3>
-                <br />
-                <p>
-                  Медаль за профессионализм на мировом чемпионате
-                  профессионального мастерства в компетенции «Полимеханика и
-                  автоматизация».
-                </p>
-              </div>
-            </div>
-            <div>
-              <div class="photo-block">
-                <img class="graduates" src="./images/photo/blok6.png" />
-              </div>
-              <div class="text-photo">
-                <h3>Карелия Брандесс</h3>
-                <br />
-                <p>
-                  Чемпионка мира соревнований профессионального мастерства в
-                  компетенции «Сельскохозяйственные биотехнологии FS»
-                </p>
-              </div>
-            </div>
-            <div>
-              <div class="photo-block">
-                <img class="graduates" src="./images/photo/blok7.png" />
-              </div>
-              <div class="text-photo">
-                <h3>Максим Гаврилин</h3>
-                <br />
-                <p>
-                  Чемпион России соревнований профессионального мастерства по
-                  компетенции «Геопространственные технологии»
-                </p>
-              </div>
-            </div>
-            <div>
-              <div class="photo-block">
-                <img class="graduates" src="./images/photo/blok8.png" />
-              </div>
-              <div class="text-photo">
-                <h3>Денис Соловьев</h3>
-                <br />
-                <p>
-                  Бронзовый призер чемпионата профессионального мастерства «Один
-                  пояс - один путь» в компетенции «Промышленная робототехника».
-                </p>
-              </div>
-            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
           </div>
         </div>
       </div>
       <div class="icon-block">
         <div class="row align-items-center text-center">
           <h1>
-            <span class="color1 text-font-icon-h1">ГАРАНТИРОВАННОЕ</span><br /><span
-              class="color2 text-font-icon-h1"
-              >ТРУДОУСТРОЙСТВО</span
-            >
+            <span class="color1 text-font-icon-h1">ГАРАНТИРОВАННОЕ</span
+            ><br /><span class="color2 text-font-icon-h1">ТРУДОУСТРОЙСТВО</span>
           </h1>
           <p>
             <span class="dark-h2 text-font-icon-p"
@@ -426,7 +497,9 @@
                   <p class="document-text">Форма справка 086у</p>
                 </div>
               </div>
-              <div class="wh-col-photo-block col-md-4 col-12 text-md-end text-center">
+              <div
+                class="wh-col-photo-block col-md-4 col-12 text-md-end text-center"
+              >
                 <img src="./images/document.png" alt="t" class="img-document" />
               </div>
             </div>
@@ -468,7 +541,9 @@
                   <p class="document-text">Фотография 3×4 (4 штуки)</p>
                 </div>
               </div>
-              <div class="wh-col-photo-block col-md-4 col-12 text-md-end text-center">
+              <div
+                class="wh-col-photo-block col-md-4 col-12 text-md-end text-center"
+              >
                 <img src="./images/document.png" alt="t" class="img-document" />
               </div>
             </div>
@@ -501,14 +576,20 @@
           <div class="col-md-4 mb-3">
             <div class="container-steps-02">
               <h3 class="steps-02-number text-font-steps-number">03</h3>
-              <h3 class="steps-02-text text-font-steps-block">Подготовь<br />документы</h3>
+              <h3 class="steps-02-text text-font-steps-block">
+                Подготовь<br />документы
+              </h3>
             </div>
             <div class="container-steps-04">
               <h3 class="steps-02-number text-font-steps-number">04</h3>
-              <h3 class="steps-04-text text-font-steps-block">Отправь нам<br /> необходимые<br /> документы</h3>
+              <h3 class="steps-04-text text-font-steps-block">
+                Отправь нам<br />
+                необходимые<br />
+                документы
+              </h3>
             </div>
           </div>
-          <div class="col-md-4 mb-3 ">
+          <div class="col-md-4 mb-3">
             <div class="container-steps-05">
               <h3 class="steps-02-number text-font-steps-number">05</h3>
               <h3 class="steps-02-text text-font-steps-block">
@@ -583,7 +664,11 @@
               </div>
               <div class="row mt-2">
                 <div class="col-2 col-width-cons-radio">
-                  <input type="radio" onMouseDown="this.isChecked=this.checked;" onClick="this.checked=!this.isChecked;">
+                  <input
+                    type="radio"
+                    onMouseDown="this.isChecked=this.checked;"
+                    onClick="this.checked=!this.isChecked;"
+                  />
                 </div>
                 <div class="col-2 col-width-cons">
                   <a class="linc-accept" href="">
@@ -598,5 +683,7 @@
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="swiper.js"></script>
   </body>
 </html>
