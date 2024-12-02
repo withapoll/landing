@@ -17,11 +17,17 @@
   z-index: 1;
 }
 
+.preview-text {
+  font-family: "MONT", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+}
+
 .preview-block h2 {
   color: white;
   margin-bottom: 15px;
   text-align: left;
-  width: 300px;
+  width: 400px;
 }
 
 .image-wrapper {
