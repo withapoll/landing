@@ -20,10 +20,10 @@
   border: none;
 }
 
-.btn.rounded-circle:hover {
-  background-color: #b8e904;
-  color: #52515f;
-}
+/*.btn.rounded-circle:hover {*/
+/*  background-color: #b8e904;*/
+/*  color: #52515f;*/
+/*}*/
 
 .btn-lg {
   background-color: #52515f;
@@ -38,9 +38,19 @@
   font-weight: 600;
 }
 
-.btn-lg:hover {
-  background-color: #b8e904;
-  color: #52515f;
+/*.btn-lg:hover {*/
+/*  background-color: #b8e904;*/
+/*  color: #52515f;*/
+/*}*/
+
+.btn.hover {
+    background-color: #b8e904;
+    color: #52515f;
+}
+
+.width-photo-header {
+  width: 60%;
+  height: 60%;
 }
 
 @media screen and (max-width: 1280px) {

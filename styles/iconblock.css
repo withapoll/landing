@@ -6,11 +6,17 @@
 .text-font-icon-h1 {
     font-family: "MONT", sans-serif;
     font-weight: 800;
+    font-size: 64px;
+}
+
+.stylee {
+    font-style: italic;
 }
 
 .text-font-icon-p {
     font-family: "MONT", sans-serif;
     font-weight: 600;
+    font-size: 30px;
 }
 
 /*.icon-line-one {*/
@@ -60,4 +66,18 @@
 .marquee2 {
     display: flex;
     animation: scroll2 30s linear infinite;
+}
+
+@keyframes scroll2-rid {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.marquee2-rid {
+    display: flex;
+    animation: scroll2-rid 30s linear infinite;
 }

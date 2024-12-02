@@ -43,11 +43,15 @@
               class="btn btn-primary rounded-circle p-0 d-flex align-items-center justify-content-center"
               title="Перейти"
               aria-label="Перейти"
+              onmouseover="headchangeColor(true)"
+              onmouseout="headresetColor()"
             >
-              <i class="bi bi-arrow-right-short"></i>
+              <img class="width-photo-header" src="images/GroupWite.png" />
             </button>
             <button
               class="btn btn-primary btn-lg rounded-0 h-100 flex-grow-1 text-wrap"
+              onmouseover="headchangeColor(true)"
+              onmouseout="headresetColor()"
             >
               Я ВСЕ ЗНАЮ, ХОЧУ ЗАПОЛНИТЬ ЗАЯВКУ
             </button>
@@ -60,14 +64,16 @@
             <div class="col-md-6 d-flex justify-content-center">
               <div class="image-wrapper">
                 <img
-                  src="images/preview.png"
+                  src="images/image.png"
                   alt="Preview Image"
                   class="img-fluid"
                 />
               </div>
             </div>
             <div class="col-md-6">
-              <h2>ПОГРУЖЕНИЕ В ПРОФЕССИЮ С ПЕРВОГО ДНЯ</h2>
+              <h2 class="preview-text">ПОГРУЖЕНИЕ</h2>
+              <h2 class="preview-text">В ПРОФЕССИЮ</h2>
+              <h2 class="preview-text">С ПЕРВОГО ДНЯ</h2>
             </div>
           </div>
         </div>
@@ -97,16 +103,16 @@
           <div class="info-wrapper">
             <!-- First Card -->
             <div class="info-block">
-              <h3>Выпускники 9-го класса</h3>
-              <p>
+              <h3 class="info-block-text">Выпускники 9-го класса</h3>
+              <p class="info-block-text">
                 Мы готовы предложить вам программу, которая наилучшим образом
                 соответствует вашим способностям.
               </p>
             </div>
             <!-- Second Card -->
             <div class="info-block">
-              <h3>Выпускники 11-го класса</h3>
-              <p>
+              <h3 class="info-block-text">Выпускники 11-го класса</h3>
+              <p class="info-block-text">
                 Обучение в колледже занимает меньше времени, чем аналогичная
                 специальность в университете. Поступив к нам, вы сможете начать
                 зарабатывать раньше своих сверстников.
@@ -114,8 +120,10 @@
             </div>
             <!-- Third Card -->
             <div class="info-block">
-              <h3>Люди в любом возрасте, которые хотят сменить профессию</h3>
-              <p>
+              <h3 class="info-block-text">
+                Люди в любом возрасте, которые хотят сменить профессию
+              </h3>
+              <p class="info-block-text">
                 Вы можете поступить в колледж в любом возрасте — главное, чтобы
                 у вас было основное или среднее общее образование.
               </p>
@@ -409,7 +417,7 @@
             </div>
           </div>
           <div class="line-container2">
-            <div class="line2 marquee2">
+            <div class="line2 marquee2-rid">
               <img class="icon" src="images/icon/icon2_1.png" />
               <img class="icon" src="images/icon/icon2_2.png" />
               <img class="icon" src="images/icon/icon2_3.png" />
@@ -434,7 +442,7 @@
         </div>
         <div class="marg-button d-flex justify-content-center mt-3">
           <ul class="nav nav-pills" id="pills-tab" role="tablist">
-            <li class="nav-item" role="presentation">
+            <li class="nav-item nav-item-left" role="presentation">
               <button
                 class="nav-link active"
                 id="pills-rf-tab"
@@ -448,7 +456,7 @@
                 Я ГРАЖДАНИН РФ
               </button>
             </li>
-            <li class="nav-item" role="presentation">
+            <li class="nav-item nav-item-right" role="presentation">
               <button
                 class="nav-link"
                 id="pills-other-tab"
@@ -612,8 +620,8 @@
         <div class="container-consultation">
           <div class="row">
             <div class="col-md-6 color-consultation text-font-consul">
-              <h2>ЗАПИШИСЬ<br />НА ИНДИВИДУАЛЬНУЮ<br />КОНСУЛЬТАЦИЮ</h2>
-              <h3>Оставь заявку и получи<br />консультацию</h3>
+              <h1>ЗАПИШИСЬ<br />НА ИНДИВИДУАЛЬНУЮ<br />КОНСУЛЬТАЦИЮ</h1>
+              <p>Оставь заявку и получи<br />консультацию</p>
             </div>
             <div class="col-md-6 col-wh">
               <input
@@ -649,13 +657,19 @@
                   <div class="button-group">
                     <button
                       class="btne btne-primary btne-lg rounded-circle p-0 d-flex align-items-center justify-content-center"
+                      id="arrow"
                       title="Перейти"
                       aria-label="Перейти"
+                      onmouseover="changeColor(true)"
+                      onmouseout="resetColor()"
                     >
-                      <i class="i-ico bi bi-arrow-right"></i>
+                      <img class="width-photo-consul" src="images/Group.png" />
                     </button>
                     <button
                       class="btne btne-width btne-primary btne-lg rounded-0 h-100 flex-grow-1 text-wrap"
+                      id="request"
+                      onmouseover="changeColor(true)"
+                      onmouseout="resetColor()"
                     >
                       ПОДАТЬ ЗАЯВКУ
                     </button>
@@ -686,4 +700,5 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="swiper.js"></script>
   </body>
+  <script src="button.js"></script>
 </html>

@@ -57,10 +57,10 @@
   border-radius: 100px;
   text-align: center;
   background-color: #ffffff;
-  margin: 5px 8px;
+  margin-top: 5px;
+  margin-left: 8px;
   line-height: 33px;
 }
-
 .steps-01-number {
   color: #3838ce;
 }
@@ -80,11 +80,11 @@
 
 .steps-01-text {
   color: #ffffff;
-  margin-top: 40px;
+  margin-top: 49px;
 }
 
 .steps-04-text {
-  margin-top: 40px;
+  margin-top: 49px;
 }
 
 .steps-02-text,
@@ -102,6 +102,7 @@
 .text-font-steps-block {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
+  font-size: 25px;
 }
 
 .text-font-steps-number {
@@ -113,15 +114,31 @@
 
   .container-steps-01,
   .container-steps-06 {
-    width: 300px;
+    width: 350px;
     height: 160px;
+    margin-bottom: 10px;
   }
 
   .container-steps-02,
   .container-steps-03,
   .container-steps-04,
   .container-steps-05 {
-    width: 300px;
+    width: 350px;
     height: 135px;
+    margin-bottom: 10px;
+  }
+
+  .container-steps-01 h3,
+  .container-steps-02 h3,
+  .container-steps-03 h3,
+  .container-steps-04 h3,
+  .container-steps-05 h3 {
+    font-size: 20px;
+  }
+
+
+  .steps-01-text,
+  .steps-04-text {
+    margin-top: 0;
   }
 }
