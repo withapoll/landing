@@ -4,7 +4,7 @@
 }
 
 .text-font-steps {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 800;
 }
 
@@ -100,18 +100,17 @@
 }
 
 .text-font-steps-block {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
   font-size: 25px;
 }
 
 .text-font-steps-number {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
 }
 
-@media screen and (max-width: 576px){
-
+@media screen and (max-width: 576px) {
   .container-steps-01,
   .container-steps-06 {
     width: 350px;
@@ -135,7 +134,6 @@
   .container-steps-05 h3 {
     font-size: 20px;
   }
-
 
   .steps-01-text,
   .steps-04-text {

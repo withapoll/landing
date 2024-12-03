@@ -5,7 +5,7 @@
   text-align: center;
   font-size: 30px;
   font-family: "MONT", sans-serif;
-  font-weight: 600;
+  font-weight: normal;
 }
 
 .color1 {
@@ -17,7 +17,7 @@
 }
 
 @media screen and (max-width: 576px) {
-  .about-block h2{
+  .about-block h2 {
     height: 230px;
     font-size: 18px;
   }

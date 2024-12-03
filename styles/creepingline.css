@@ -33,7 +33,7 @@
   box-sizing: border-box;
   display: inline-block;
   font-family: "MONT", sans-serif;
-  font-weight: 600;
+  font-weight: normal;
 }
 
 .slope-text-circle {

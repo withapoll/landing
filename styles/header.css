@@ -35,7 +35,7 @@
   transition: background-color 0.3s, transform 0.3s;
   border: none;
   font-family: "MONT", sans-serif;
-  font-weight: 600;
+  font-weight: normal;
 }
 
 /*.btn-lg:hover {*/
@@ -44,8 +44,8 @@
 /*}*/
 
 .btn.hover {
-    background-color: #b8e904;
-    color: #52515f;
+  background-color: #b8e904;
+  color: #52515f;
 }
 
 .width-photo-header {
