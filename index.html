@@ -45,13 +45,15 @@
               aria-label="Перейти"
               onmouseover="headchangeColor(true)"
               onmouseout="headresetColor()"
+              onclick="scrollToElement('consultation-block')"
             >
-              <img class="width-photo-header" src="images/GroupWite.png" />
+              <img class="width-photo-header" id="photo-header-active" src="images/GroupWite.png" />
             </button>
             <button
               class="btn btn-primary btn-lg rounded-0 h-100 flex-grow-1 text-wrap"
               onmouseover="headchangeColor(true)"
               onmouseout="headresetColor()"
+              onclick="scrollToElement('consultation-block')"
             >
               Я ВСЕ ЗНАЮ, ХОЧУ ЗАПОЛНИТЬ ЗАЯВКУ
             </button>
@@ -504,7 +506,7 @@
                 </div>
               </div>
               <div
-                class="wh-col-photo-block col-md-4 col-12 text-md-end text-center"
+                class="col-wh-photo-block col-md-4 col-12 text-md-end text-center"
               >
                 <img src="./images/document.png" alt="t" class="img-document" />
               </div>
@@ -562,8 +564,8 @@
         <div class="align-items-center text-center indentation marg-steps">
           <h1><span class="dark-h2 text-font-steps">ШАГИ</span></h1>
         </div>
-        <div class="row">
-          <div class="col-md-4 mb-3">
+        <div class="row row-align-steps">
+          <div class="col-md-4 mb-3 col-width-step">
             <div class="container-steps-01">
               <h3 class="steps-01-number text-font-steps-number">01</h3>
               <h3 class="steps-01-text text-font-steps-block">
@@ -579,7 +581,7 @@
               </h3>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3 col-width-step">
             <div class="container-steps-02">
               <h3 class="steps-02-number text-font-steps-number">03</h3>
               <h3 class="steps-02-text text-font-steps-block">
@@ -595,7 +597,7 @@
               </h3>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3 col-width-step">
             <div class="container-steps-05">
               <h3 class="steps-02-number text-font-steps-number">05</h3>
               <h3 class="steps-02-text text-font-steps-block">
@@ -614,7 +616,7 @@
       </div>
       <!--input почта теперь не выступает :) поправь там кнопки пж-->
       <!--css: consultationlock.css-->
-      <div class="consultation-bg-photo">
+      <div class="consultation-bg-photo" id="consultation-block">
         <div class="container-consultation">
           <div class="row">
             <div class="col-md-6 color-consultation text-font-consul">
@@ -636,7 +638,7 @@
                     type="tel"
                     id="phone"
                     name="phone"
-                    placeholder="+7 (999) 99-99"
+                    placeholder="+7 (999) 999 99-99"
                     pattern="[7-8]{1} [0-9]{3} [0-9]{3}-[0-9]{2}-[0-9]{2}"
                   />
                 </div>
@@ -677,13 +679,11 @@
               <div class="row mt-2">
                 <div class="col-2 col-width-cons-radio">
                   <input
-                    type="radio"
-                    onMouseDown="this.isChecked=this.checked;"
-                    onClick="this.checked=!this.isChecked;"
+                    type="checkbox"
                   />
                 </div>
                 <div class="col-2 col-width-cons">
-                  <a class="linc-accept" href="">
+                  <a class="linc-accept" href="./soglas.pdf" target="_blank">
                     Нажимая на кнопку, я соглашаюсь с политикой обработки
                     персональных данных
                   </a>
@@ -699,4 +699,5 @@
     <script src="swiper.js"></script>
   </body>
   <script src="button.js"></script>
+<script src="buttonhead.js"></script>
 </html>

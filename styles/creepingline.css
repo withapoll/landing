@@ -64,10 +64,10 @@
 
 .marquee {
   display: flex;
-  animation: scroll 10s linear infinite;
+  animation: scroll 20s linear infinite;
 }
 
 .marquee-rid {
   display: flex;
-  animation: scroll-rid 10s linear infinite;
+  animation: scroll-rid 20s linear infinite;
 }

@@ -29,6 +29,8 @@
   background-color: #52515f;
   border-radius: 60px !important;
   height: 60px !important;
+  padding-left: 61px;
+  padding-right: 61px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,6 +48,10 @@
 .btn.hover {
   background-color: #b8e904;
   color: #52515f;
+}
+
+.btn.hover img {
+  content: url("../images/Group.png");
 }
 
 .width-photo-header {

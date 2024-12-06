@@ -50,6 +50,15 @@
   background-color: #b8e904;
 }
 
+.row-align-steps {
+  display: flex;
+  justify-content: center;
+}
+
+.col-width-step {
+  width: 390px;
+}
+
 .steps-01-number,
 .steps-02-number {
   width: 54px;

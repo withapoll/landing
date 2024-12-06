@@ -19,6 +19,7 @@ function headchangeColor(isHover) {
     buttons.forEach(button => {
         if (isHover) {
             button.classList.add('hover');
+
         }
     });
 }

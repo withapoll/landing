@@ -52,8 +52,8 @@
 }
 
 .img-document {
-  width: 590px;
-  height: 540px;
+  width: 100%;
+  height: auto;
 }
 
 .marg-button {
@@ -64,9 +64,9 @@
   width: 610px;
 }
 
-.wh-col-photo-block {
-  width: 590px;
-  height: 540px;
+.col-wh-photo-block {
+  flex: 1;
+  min-width: 30%;
 }
 
 @media screen and (max-width: 576px) {
