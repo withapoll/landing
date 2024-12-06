@@ -33,11 +33,14 @@
   font-family: "MONT", sans-serif;
   font-weight: 800;
   font-style: italic;
+  line-height: 51px;
 }
 
 .text-font-consul p {
   font-family: "MONT", sans-serif;
   font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
 }
 
 .line-name,
@@ -109,11 +112,6 @@ input[type="checkbox"]:checked:after {
   color: #52515f;
 }
 
-/*.btne-lg:hover {*/
-/*  background-color: #b8e904;*/
-/*  color: #52515f;*/
-/*}*/
-
 .btne.rounded-circle {
   width: 60px;
   height: 60px;
@@ -129,11 +127,6 @@ input[type="checkbox"]:checked:after {
   width: 60%;
   height: 60%;
 }
-
-/*.btne.rounded-circle:hover {*/
-/*  background-color: #b8e904;*/
-/*  color: #52515f;*/
-/*}*/
 
 .btne.hover {
   background-color: #b8e904;
