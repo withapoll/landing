@@ -21,8 +21,14 @@
 }
 
 @media screen and (max-width: 576px) {
+  .about-block {
+    width: 299px;
+  }
+
   .about-block h2 {
     height: 230px;
     font-size: 18px;
+    margin-top: 60px;
+    margin-bottom: 60px;
   }
 }
