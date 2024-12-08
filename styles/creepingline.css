@@ -71,3 +71,17 @@
   display: flex;
   animation: scroll-rid 20s linear infinite;
 }
+
+@media (max-width: 576px) {
+  .marquee {
+    animation: scroll 10s linear infinite;
+  }
+
+  .marquee-rid {
+    animation: scroll-rid 10s linear infinite;
+  }
+
+  .text-font {
+    font-size: 25px;
+  }
+}
