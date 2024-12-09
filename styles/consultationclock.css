@@ -154,42 +154,101 @@ input[type="checkbox"]:checked:after {
   width: 40px;
 }
 
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
+  .consultation-bg-photo {
+    height: auto;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+  }
+
   .container-consultation {
-    width: 330px;
+    width: 100%;
     border-radius: 30px;
+    padding: 20px;
+    margin: 0 10px;
+  }
+
+  .col-wh {
+    width: 100%;
+  }
+
+  .color-consultation p {
+    margin-top: 10px;
+  }
+
+  .text-font-consul h1 {
+    font-size: 25px;
+    line-height: 25px;
+    text-align: left;
+  }
+
+  .text-font-consul p {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+    margin-bottom: 30px;
   }
 
   .line-name,
   .line-phone,
   .line-email {
-    width: 100%;
     height: 50px;
+    border-radius: 25px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
   }
 
-  .color-consultation h2 {
-    font-size: 20px;
+  input[type="checkbox"] {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    margin-top: 15px;
   }
 
-  .color-consultation h3 {
-    margin-top: 10px;
-    font-size: 20px;
+  input[type="checkbox"]:after {
+    left: 3px;
+    top: 3px;
+    width: 15px;
+    height: 15px;
   }
 
   .btne.btne-width {
-    width: 229px;
-    height: 50px;
+    width: 200px !important;
   }
 
   .btne-lg {
-    height: 50px;
+    height: 50px !important;
+    font-size: 16px;
   }
 
   .btne.rounded-circle {
-    margin-left: 5px;
+    width: 50px;
+    height: 50px;
   }
 
-  .col-wh {
-    margin-left: 5px;
+  .width-photo-consul {
+    width: 70%;
+    height: auto;
+  }
+
+  .button-group {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .linc-accept {
+    text-align: left;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+
+  .col-width-cons {
+    width: 100%;
+  }
+
+  .col-width-cons-radio {
+    width: 30px;
   }
 }

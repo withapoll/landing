@@ -41,6 +41,8 @@
   height: 60px;
   border: 2px solid #52515f;
   border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-item-left {
@@ -74,24 +76,35 @@
     width: 100%;
     text-align: left;
   }
-
+  .nav-link {
+    width: 287px;
+    margin: 8px 0;
+    text-align: center;
+  }
   .nav-link.active {
-    width: 100% !important;
+    width: 267px;
+    max-width: 287px;
+    margin: auto;
+    background-color: #b8e904 !important;
+    border-radius: 40px !important;
+    color: #52515f !important;
   }
-
   .nav-pills {
-    height: 120px;
+    width: 100%;
+    height: auto;
+    border: 2px solid #52515f;
     border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
   }
-
   .img-document {
     height: 275px;
   }
-
   .text-font-doc {
     font-size: 23px;
   }
-
   .document-line p {
     font-size: 16px;
   }
