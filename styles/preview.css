@@ -21,17 +21,20 @@
 .preview-text {
   font-family: "MONT", sans-serif;
   font-weight: 800;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .preview-block h2 {
   color: white;
   margin-bottom: 15px;
   text-align: left;
-  width: 400px;
+  width: 403px;
   line-height: 63px;
   margin-top: 150px;
   margin-left: 225px;
+}
+.italic-text {
+  font-style: italic;
 }
 
 .image-wrapper {
