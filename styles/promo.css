@@ -47,7 +47,7 @@
 }
 
 .info-block h3 {
-  margin-top: 47px;
+  margin-top: 30px;
   margin-left: 20px;
   color: #52515f;
   font-size: 30px;
@@ -72,12 +72,12 @@
 }
 
 .info-block:nth-child(2) h3 {
-  margin-bottom: 90px;
+  margin-bottom: 87px;
   width: 310px;
 }
 
 .info-block:nth-child(3) h3 {
-  margin-bottom: 70px;
+  margin-bottom: 62px;
   width: 310px;
 }
 

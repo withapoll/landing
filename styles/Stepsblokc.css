@@ -16,8 +16,8 @@
 .container-steps-01,
 .container-steps-04,
 .container-steps-06 {
-  /*width: 100%;*/
-  width: 387px;
+  width: 100%;
+  max-width: 387px;
   height: 206px;
   border-radius: 30px;
   padding: 20px;
@@ -27,8 +27,8 @@
 .container-steps-02,
 .container-steps-03,
 .container-steps-05 {
-  /*width: 100%;*/
-  width: 387px;
+  width: 100%;
+  max-width: 387px;
   height: 139px;
   border-radius: 30px;
   padding: 20px;
@@ -57,7 +57,7 @@
 }
 
 .col-width-step {
-  width: 445px;
+  width: 375px
 }
 
 .steps-01-number,
