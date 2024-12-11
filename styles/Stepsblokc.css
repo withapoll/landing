@@ -121,8 +121,8 @@
 
 @media (max-width: 576px) {
   .container-step {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .text-font-steps {
@@ -131,7 +131,7 @@
   }
 
   .marg-steps {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   .container-steps-01,
@@ -145,7 +145,7 @@
     height: auto;
     border-radius: 30px;
     padding: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 
   .container-steps-01,
@@ -186,31 +186,23 @@
   }
 
   .steps-01-text {
-    margin-top: 15px;
+    margin-top: 30px;
   }
 
   .steps-04-text {
-    margin-top: 15px;
+    margin-top: 30px;
   }
 
   .steps-06-text {
-    text-align: left;
-    margin-top: 24px;
-    margin-left: 68px;
-    font-family: "Mont", sans-serif;
-    font-style: italic;
+    text-align: center;
+    margin-top: 15px;
   }
 
   .text-font-steps-block {
-    font-size: 20px;
-    font-family: "Mont", sans-serif;
-    font-weight: normal;
+    font-size: 18px;
   }
 
   .text-font-steps-number {
-    font-size: 24px;
-    font-weight: regular;
-    font-family: "Mont", sans-serif;
-    font-weight: normal;
+    font-size: 14px;
   }
 }
