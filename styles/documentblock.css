@@ -76,7 +76,6 @@
     width: 100%;
     text-align: left;
   }
-
   .nav-pills {
     width: 100%;
     height: auto;
@@ -87,16 +86,13 @@
     justify-content: flex-start;
     padding: 10px;
   }
-
   .nav-item {
     width: 100%;
   }
-
   .nav-link {
     width: 100%;
     text-align: center;
   }
-
   .nav-link.active {
     width: 100%;
     margin: auto;
