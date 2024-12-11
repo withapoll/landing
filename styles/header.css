@@ -102,10 +102,15 @@
 
   .btn-lg {
     height: 50px;
-    font-size: 0.9rem;
+    font-size: 16px;
+    font-family: "Mont", sans-serif;
+    font-weight: normal;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
   }
 
   .btn-group {
-    justify-content: center;
+    justify-content: left;
   }
 }

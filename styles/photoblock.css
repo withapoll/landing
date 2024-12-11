@@ -1,3 +1,11 @@
+.promo-photo-block {
+  background-color: white;
+  padding: 40px 100px;
+  border-radius: 80px;
+  margin-top: 150px;
+  text-align: center;
+  margin-bottom: 150px;
+}
 .head-text-block-photo {
   margin-top: 60px;
   margin-bottom: 31px;
@@ -92,6 +100,26 @@
 }
 
 @media (max-width: 576px) {
+  .promo-photo-block {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    padding: 20px 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 30px;
+  }
+
+  .promo-photo-block dark-h2 text-font-photo,
+  .promo-photo-block blue-h2 text-font-photo {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .promo-photo-block-inner {
+    width: 360px;
+    margin: 0 auto;
+  }
+
   .head-text-block-photo {
     margin-top: 30px;
     margin-bottom: 20px;

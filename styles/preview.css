@@ -54,9 +54,11 @@
 
 @media (max-width: 576px) {
   .background-block {
-    height: auto;
-    padding: 20px 0;
-    margin-top: 40px;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    padding: 20px 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     border-radius: 30px;
   }
 
