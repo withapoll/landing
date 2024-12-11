@@ -76,19 +76,7 @@
     width: 100%;
     text-align: left;
   }
-  .nav-link {
-    width: 287px;
-    margin: 8px 0;
-    text-align: center;
-  }
-  .nav-link.active {
-    width: 267px;
-    max-width: 287px;
-    margin: auto;
-    background-color: #b8e904 !important;
-    border-radius: 40px !important;
-    color: #52515f !important;
-  }
+
   .nav-pills {
     width: 100%;
     height: auto;
