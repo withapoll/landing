@@ -123,14 +123,17 @@ input[type="checkbox"]:checked:after {
   border: none;
 }
 
+.btne.active {
+  background-color: #b8e904;
+}
+
+.btne.disabled {
+  background-color: #eeeeee;
+}
+
 .width-photo-consul {
   width: 60%;
   height: 60%;
-}
-
-.btne.hover {
-  background-color: #b8e904;
-  color: #52515f;
 }
 
 .button-group {
