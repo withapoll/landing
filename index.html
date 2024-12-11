@@ -30,6 +30,7 @@
     <link href="styles/Stepsblokc.css" rel="stylesheet" />
     <link href="styles/consultationclock.css" rel="stylesheet" />
     <link href="styles/swiper.css" rel="stylesheet" />
+    <link href="styles/popup.css" rel="stylesheet" />
   </head>
   <body>
     <div id="root" class="container-fluid py-2">
@@ -695,6 +696,16 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="pop-up-container" id="pop-up">
+      <div class="pop-up-active" id="pop-up-active">
+        <button class="pop-up-exit" id="exit"><i class="bi bi-x"></i></button>
+        <h2 class="pop-up-text"><span>Спасибо!</span> <br>Ваши данные<br> получены</h2>
+      </div>
+      <div class="pop-up-error" id="pop-up-error">
+        <h2>повторите попытку или попробуйте позже</h2>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

@@ -6,12 +6,14 @@ $servername = 'localhost';
 $username = 'u2916584_server';
 $password = 'Q@q"KN5vi8-zxUk';
 $dbname = 'u2916584_applications';
+$sendEmail = 'privetmgok@mgok.su';
 if($postdata) {
     $conn = mysqli_connect($servername, $username, $password, $dbname);
 
     $name = mysqli_real_escape_string($conn, $data['name']) ;
     $phoneNumber = mysqli_real_escape_string($conn, $data['phoneNumber']) ;
     $email = mysqli_real_escape_string($conn, $data['email']);
+    $datetime = date('d.m.Y H:i');
 
     $sql = "INSERT INTO `user` (`name`, `phoneNumber`, `email`) 
             VALUES ('{$name}', '{$phoneNumber}', '{$email}');";
