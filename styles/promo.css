@@ -1,6 +1,6 @@
 .promo-block {
   background-color: white;
-  padding: 40px 100px;
+  padding: 10px 100px;
   border-radius: 80px;
   margin-top: 150px;
   text-align: center;
@@ -9,8 +9,8 @@
 
 .promo-block h2 {
   color: #000;
-  font-size: 56px;
-  font-weight: 700;
+  font-size: 64px;
+  font-weight: 800;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -47,7 +47,7 @@
 }
 
 .info-block h3 {
-  margin-top: 47px;
+  margin-top: 35px;
   margin-left: 20px;
   color: #52515f;
   font-size: 30px;
@@ -72,12 +72,12 @@
 }
 
 .info-block:nth-child(2) h3 {
-  margin-bottom: 90px;
+  margin-bottom: 88px;
   width: 310px;
 }
 
 .info-block:nth-child(3) h3 {
-  margin-bottom: 70px;
+  margin-bottom: 64px;
   width: 310px;
 }
 
