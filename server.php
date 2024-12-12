@@ -21,9 +21,9 @@ if($postdata) {
     $result = mysqli_query($conn, $sql);
     if ($result) {
         echo 'Record created';
-        mail($email,
-            "Заявка принята",
-            "{$name}, спасибо что выбрали наш колледж!");
+        mail($sendEmail,
+            "Новая Заявка",
+            "Имя: {$name}\nПочта: {$email}\nНомер телефона: {$phoneNumber}\nДата отправки: {$datetime}");
     }else{
         echo mysqli_error($conn);
     }
