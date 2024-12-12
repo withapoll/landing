@@ -55,7 +55,7 @@
 @media (max-width: 576px) {
   .background-block {
     width: 100vw;
-    height: 496px;
+    height: 550px;
     margin-left: calc(-50vw + 50%);
     padding: 20px 10px;
     margin-top: 40px;
@@ -66,7 +66,7 @@
   .preview-block h2 {
     color: white;
     margin-bottom: 15px;
-    text-align: center;
+    text-align: left;
     width: 100%;
     line-height: 40px;
     margin-top: 20px;
@@ -83,7 +83,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    width: 600px;
+    width: 400px;
     max-width: 120%;
     top: 100%;
     margin-top: -100px;
@@ -91,11 +91,12 @@
   }
 
   .image-wrapper img {
-    width: 600px;
+    width: 550px;
     height: 450px;
     object-fit: cover;
     position: static;
     transform: none;
+    margin-top: 59px;
     top: auto;
     left: auto;
   }
