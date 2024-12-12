@@ -60,10 +60,6 @@
 }
 
 @media screen and (max-width: 1280px) {
-  .container {
-    margin-top: 0.5rem;
-  }
-
   .logo-img {
     width: 137px;
     height: 55px;
@@ -81,14 +77,10 @@
 }
 
 @media screen and (max-width: 576px) {
-  .container {
-    margin-top: 0.5rem;
-  }
-
   .logo-img {
     width: 65px;
     height: 26px;
-    margin-bottom: 0.5rem;
+    margin-bottom: 10px;
   }
 
   .btn.rounded-circle {
@@ -102,10 +94,15 @@
 
   .btn-lg {
     height: 50px;
-    font-size: 0.9rem;
+    font-size: 16px;
+    font-family: "MONT", sans-serif;
+    font-weight: normal;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
   }
 
   .btn-group {
-    justify-content: center;
+    justify-content: left;
   }
 }
