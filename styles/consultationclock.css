@@ -32,8 +32,12 @@
 .text-font-consul h1 {
   font-family: "MONT", sans-serif;
   font-weight: 800;
-  font-style: italic;
+  font-style: normal;
   line-height: 51px;
+}
+
+.italic-text {
+  font-style: italic;
 }
 
 .text-font-consul p {
@@ -168,6 +172,7 @@ input[type="checkbox"]:checked:after {
 
   .container-consultation {
     width: 100vw;
+    margin-left: calc(-50vw + 50%);
     padding: 20px 10px;
     margin-top: 60px;
     margin-bottom: 60px;

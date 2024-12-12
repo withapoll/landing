@@ -71,6 +71,7 @@
   margin-left: 8px;
   line-height: 33px;
 }
+
 .steps-01-number {
   color: #3838ce;
 }
@@ -146,7 +147,8 @@
   .container-steps-04,
   .container-steps-05,
   .container-steps-06 {
-    max-width: 100vw;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
     height: auto;
     border-radius: 30px;
     padding: 15px;
@@ -155,7 +157,7 @@
 
   .container-steps-01,
   .container-steps-06 {
-    height: 160px;
+    height: 180px;
     align-items: center;
   }
 
