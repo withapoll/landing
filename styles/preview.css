@@ -55,12 +55,12 @@
 @media (max-width: 576px) {
   .background-block {
     width: 100vw;
-    height: auto;
+    height: 496px;
     margin-left: calc(-50vw + 50%);
     padding: 20px 10px;
     margin-top: 40px;
     margin-bottom: 60px;
-    border-radius: 30px;
+    border-radius: 40px;
   }
 
   .preview-block h2 {
@@ -80,12 +80,14 @@
   }
 
   .image-wrapper {
-    position: relative;
-    max-width: 100%;
-    height: 450px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    max-width: 120%;
+    top: 100%;
+    margin-top: -100px;
+    z-index: 10;
   }
 
   .image-wrapper img {
