@@ -15,6 +15,10 @@
   font-weight: 800;
 }
 
+.margin-top-document {
+  margin-top: 63px;
+}
+
 .document-text {
   margin-top: 15px;
   margin-left: 26px;
@@ -70,7 +74,7 @@
 
 .col-wh-photo-block {
   flex: 1;
-  min-width: 30%;
+  min-width: 50%;
   max-width: 590px;
 }
 
