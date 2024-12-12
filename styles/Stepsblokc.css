@@ -6,6 +6,7 @@
 .text-font-steps {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
+  font-size: 64px;
 }
 
 .marg-steps {
@@ -16,7 +17,7 @@
 .container-steps-04,
 .container-steps-06 {
   width: 100%;
-  max-width: 387px;
+  max-width: 450px;
   height: 206px;
   border-radius: 30px;
   padding: 20px;
@@ -27,7 +28,7 @@
 .container-steps-03,
 .container-steps-05 {
   width: 100%;
-  max-width: 387px;
+  max-width: 450px;
   height: 139px;
   border-radius: 30px;
   padding: 20px;
@@ -56,7 +57,7 @@
 }
 
 .col-width-step {
-  width: 390px;
+  width: 457px;
 }
 
 .steps-01-number,
@@ -105,10 +106,12 @@
 .steps-06-text {
   text-align: left;
   color: #ffffff;
-  padding: auto;
+  margin-top: 30px;
+  margin-left: 70px;
   font-weight: 600;
   font-family: "Mont", sans-serif;
   font-style: italic;
+  font-size: 30px;
 }
 
 .text-font-steps-block {

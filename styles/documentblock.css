@@ -55,7 +55,9 @@
 
 .img-document {
   width: 100%;
-  height: auto;
+  max-width: 590px;
+  height: 540px;
+  margin-bottom: 60px;
 }
 
 .marg-button {
@@ -69,6 +71,7 @@
 .col-wh-photo-block {
   flex: 1;
   min-width: 30%;
+  max-width: 590px;
 }
 
 @media screen and (max-width: 576px) {

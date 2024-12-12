@@ -1,7 +1,7 @@
 .background-block {
   background-color: #3838ce;
   padding: 40px 0;
-  height: 554px;
+  height: 659px;
   border-radius: 80px;
   margin-top: 80px;
   overflow: visible;
@@ -21,7 +21,7 @@
 .preview-text {
   font-family: "MONT", sans-serif;
   font-weight: 800;
-  font-size: 50px;
+  font-size: 43px;
 }
 
 .preview-block h2 {
@@ -45,8 +45,8 @@
 
 .image-wrapper img {
   width: 1200px;
-  height: 700px;
-  top: 218px;
+  height: 800px;
+  top: 280px;
   left: 32%;
   position: absolute;
   transform: translate(-50%, -50%);
