@@ -79,9 +79,26 @@
 }
 
 @media screen and (max-width: 576px) {
+  .margin-top-document {
+    margin-top: 32px;
+  }
+  .text-font-doc {
+    font-family: "MONT", sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+  }
+  .document-text {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-family: "MONT", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+  }
+
   .document-line {
     width: 100%;
     text-align: left;
+    margin-bottom: 10px;
   }
 
   .nav-pills {
@@ -92,7 +109,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 10px;
+    padding: 5px;
   }
   .nav-item {
     width: 100%;
@@ -100,6 +117,7 @@
   .nav-link {
     width: 100%;
     text-align: center;
+    margin: auto;
   }
   .nav-link.active {
     width: 100%;
@@ -110,11 +128,15 @@
   }
   .img-document {
     height: 275px;
+    margin-bottom: 20px;
   }
   .text-font-doc {
     font-size: 23px;
   }
   .document-line p {
     font-size: 16px;
+  }
+  .marg-button {
+    margin-bottom: 20px;
   }
 }

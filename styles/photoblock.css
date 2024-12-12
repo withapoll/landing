@@ -127,8 +127,10 @@
   }
 
   .text-font-photo {
-    font-size: 20px;
-    text-align: center;
+    font-family: "MONT", sans-serif;
+    font-weight: 800;
+    text-align: left;
+    font-size: 25px;
   }
 
   .photo-wrapper {
