@@ -638,6 +638,7 @@
                 id="name"
                 name="name"
                 placeholder="имя"
+                oninput="check()"
               />
               <div class="row">
                 <div class="col-12 col-md-6 col-phone">
@@ -648,6 +649,7 @@
                     name="phone"
                     placeholder="+7 (999) 999 99-99"
                     pattern="[7-8]{1} [0-9]{3} [0-9]{3}-[0-9]{2}-[0-9]{2}"
+                    oninput="check()"
                   />
                 </div>
                 <div class="col-12 col-md-6 col-email">
@@ -657,6 +659,7 @@
                     id="email"
                     name="email"
                     placeholder="E-mail"
+                    oninput="check()"
                   />
                 </div>
               </div>
@@ -664,22 +667,20 @@
                 <div class="col-12 d-flex justify-content-end">
                   <div class="button-group">
                     <button
-                      class="btne btne-primary btne-lg rounded-circle p-0 d-flex align-items-center justify-content-center"
-                      id="arrow"
+                      class="btne btne-primary btne-lg rounded-circle p-0 d-flex align-items-center justify-content-center disabled"
+                      id="button-color"
                       title="Перейти"
                       aria-label="Перейти"
-                      onmouseover="changeColor(true)"
-                      onmouseout="resetColor()"
                       onclick="buttonPhp()"
+                      disabled
                     >
                       <img class="width-photo-consul" src="images/Group.png" />
                     </button>
                     <button
-                      class="btne btne-width btne-primary btne-lg rounded-0 h-100 flex-grow-1 text-wrap"
-                      id="request"
-                      onmouseover="changeColor(true)"
-                      onmouseout="resetColor()"
+                      class="btne btne-width btne-primary btne-lg rounded-0 h-100 flex-grow-1 text-wrap disabled"
+                      id="button-color2"
                       onclick="buttonPhp()"
+                      disabled
                     >
                       ПОДАТЬ ЗАЯВКУ
                     </button>
@@ -688,7 +689,7 @@
               </div>
               <div class="row mt-2">
                 <div class="col-2 col-width-cons-radio">
-                  <input type="checkbox" />
+                  <input type="checkbox" id="checked" onchange="check()" checked/>
                 </div>
                 <div class="col-2 col-width-cons">
                   <a class="linc-accept" href="./soglas.pdf" target="_blank">

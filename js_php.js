@@ -33,7 +33,6 @@ function buttonPhp () {
     const popUpAct = document.getElementById("pop-up-active");
     const popUpErr = document.getElementById("pop-up-error");
 
-
     const data = JSON.stringify({name, phoneNumber, email});
 
     fetch('server.php', {
