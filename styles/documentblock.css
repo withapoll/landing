@@ -127,6 +127,7 @@
     color: #52515f !important;
   }
   .img-document {
+    object-fit: fill;
     height: 275px;
     margin-bottom: 20px;
   }
