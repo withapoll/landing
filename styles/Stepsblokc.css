@@ -87,6 +87,7 @@
 .steps-06-text {
   margin: 5px 0 0 8px;
   text-align: left;
+  font-family: "Mont", sans-serif;
 }
 
 .steps-01-text {
@@ -116,7 +117,7 @@
 }
 
 .text-font-steps-block {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Mont", sans-serif;
   font-weight: normal;
   font-size: 25px;
 }
