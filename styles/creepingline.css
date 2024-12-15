@@ -12,8 +12,9 @@
 }
 
 .line-container {
-  overflow: hidden;
+  overflow: visible;
   white-space: nowrap;
+  width: 100vw;
 }
 
 .line {
@@ -76,10 +77,12 @@
 @media (max-width: 576px) {
   .marquee {
     animation: scroll 10s linear infinite;
+    width: 100vw;
   }
 
   .marquee-rid {
     animation: scroll-rid 10s linear infinite;
+    width: 100vw;
   }
 
   .text-font {
