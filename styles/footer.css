@@ -1,0 +1,45 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #eeeeee;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-text {
+  font-family: "MONT", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #52515f;
+}
+
+.footer-text-bold {
+  font-family: "MONT", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #52515f;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 576px) {
+  .footer {
+    padding: 5px;
+    width: 164px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  .footer-text {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .footer-text-bold {
+    font-weight: 700;
+    font-size: 16px;
+  }
+}
