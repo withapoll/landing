@@ -46,7 +46,6 @@
 .text-photo {
   text-align: left;
   padding: 10px;
-  margin-left: 25px;
 }
 
 .text-photo h3 {
@@ -78,10 +77,12 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  margin-right: 20px;
 }
 
 .swiper-button-next,
 .swiper-button-prev {
+  display: none;
   color: #3838ce;
   position: absolute;
   top: 35%;
@@ -98,6 +99,7 @@
 }
 
 .swiper-pagination-bullet {
+  display: none;
   background-color: #3838ce;
 }
 
