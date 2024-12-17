@@ -12,9 +12,11 @@
 }
 
 .line-container {
-  overflow: visible;
+  overflow-x: hidden;
   white-space: nowrap;
   width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
 .line {
@@ -75,6 +77,14 @@
 }
 
 @media (max-width: 576px) {
+  .line-container {
+    overflow-x: hidden;
+    white-space: nowrap;
+    width: 100vw;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
   .marquee {
     animation: scroll 10s linear infinite;
     width: 100vw;
