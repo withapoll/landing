@@ -163,6 +163,103 @@ input[type="checkbox"]:checked:after {
   width: 40px;
 }
 
+@media screen and (max-width: 1024px) and (min-width: 640px) {
+  .consultation-bg-photo {
+    height: auto;
+    padding: 40px 20px;
+    margin-bottom: 100px;
+  }
+
+  .container-consultation {
+    width: 100%;
+    padding: 40px;
+    border-radius: 60px;
+  }
+
+  .col-wh {
+    width: 100%;
+  }
+
+  .color-consultation p {
+    margin-top: 80px;
+    width: 100%;
+  }
+
+  .text-font-consul h1 {
+    font-size: 40px;
+    width: 100%;
+  }
+
+  .text-font-consul p {
+    font-size: 25px;
+    line-height: 30px;
+    width: 100%;
+  }
+
+  .line-name,
+  .line-phone,
+  .line-email {
+    height: 55px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  input[type="checkbox"] {
+    height: 28px;
+    width: 28px;
+    margin-right: 15px;
+    margin-top: 25px;
+  }
+
+  input[type="checkbox"]:after {
+    width: 18px;
+    height: 18px;
+    left: 5px;
+    top: 5px;
+  }
+
+  .btne.btne-width {
+    width: 100%;
+  }
+
+  .btne-lg {
+    height: 60px !important;
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .btne.rounded-circle {
+    width: 60px;
+    height: auto;
+    flex-shrink: 0;
+  }
+
+  .width-photo-consul {
+    width: 32px;
+    height: auto;
+  }
+
+  .button-group {
+    gap: 15px;
+    width: 100%;
+  }
+
+  .linc-accept {
+    font-size: 14px;
+    margin-top: 15px;
+    width: 100%;
+  }
+
+  .col-width-cons {
+    width: 100%;
+  }
+
+  .col-width-cons-radio {
+    width: 35px;
+    flex-shrink: 0;
+  }
+}
+
 @media (max-width: 576px) {
   .consultation-bg-photo,
   .container-consultation {

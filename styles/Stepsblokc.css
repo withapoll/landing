@@ -129,6 +129,100 @@
   font-weight: normal;
 }
 
+@media screen and (max-width: 1024px) and (min-width: 640px) {
+  .container-step {
+    margin-top: 40px;
+    margin-bottom: 100px;
+  }
+
+  .text-font-steps {
+    font-size: 50px;
+  }
+
+  .marg-steps {
+    margin-bottom: 25px;
+  }
+
+  .container-steps-01,
+  .container-steps-02,
+  .container-steps-03,
+  .container-steps-04,
+  .container-steps-05,
+  .container-steps-06 {
+    width: 100%;
+    max-width: 100vw;
+    height: auto;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .container-steps-01,
+  .container-steps-06 {
+    height: 200px;
+    align-items: center;
+  }
+
+  .container-steps-02,
+  .container-steps-03,
+  .container-steps-05 {
+    height: 150px;
+  }
+
+  .row-align-steps {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col-width-step {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .steps-01-number,
+  .steps-02-number {
+    width: 50px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+  }
+
+  .steps-01-text,
+  .steps-02-text,
+  .steps-04-text,
+  .steps-06-text {
+    margin: 20px 0 0 10px;
+    text-align: left;
+  }
+
+  .steps-01-text {
+    margin-top: 40px;
+  }
+
+  .steps-04-text {
+    margin-top: 40px;
+  }
+
+  .steps-06-text {
+    text-align: left;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+  }
+
+  .text-font-steps-block {
+    font-size: 25px;
+    font-family: "Mont", sans-serif;
+    font-weight: normal;
+  }
+
+  .text-font-steps-number {
+    font-size: 25px;
+    font-family: "Mont", sans-serif;
+    font-weight: normal;
+  }
+}
+
 @media (max-width: 576px) {
   .container-step {
     margin-top: 30px;
