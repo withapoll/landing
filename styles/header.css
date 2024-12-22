@@ -40,11 +40,6 @@
   font-weight: normal;
 }
 
-/*.btn-lg:hover {*/
-/*  background-color: #b8e904;*/
-/*  color: #52515f;*/
-/*}*/
-
 .btn.hover {
   background-color: #b8e904;
   color: #52515f;
@@ -73,6 +68,32 @@
 
   .btn.rounded-circle i {
     font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 640px) {
+  .logo-img {
+    width: 135px;
+    height: 55px;
+    margin-bottom: 10px;
+  }
+
+  .btn-group {
+    flex-direction: column;
+  }
+
+  .btn.rounded-circle {
+    width: 50px;
+    height: 50px;
+  }
+
+  .btn-lg {
+    width: 251px;
+    height: 50px;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
