@@ -78,7 +78,7 @@
   max-width: 590px;
 }
 
-@media screen and (max-width: 1024px) and (min-width: 640px) {
+@media screen and (max-width: 1199px) and (min-width: 640px) {
   .document-line {
     width: 100%;
     margin-bottom: 15px;

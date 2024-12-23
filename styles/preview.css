@@ -52,7 +52,7 @@
   transform: translate(-50%, -50%);
 }
 
-@media screen and (max-width: 1024px) and (min-width: 640px) {
+@media screen and (max-width: 1199px) and (min-width: 640px) {
   .background-block {
     width: 100vw;
     height: 903px;

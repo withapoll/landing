@@ -103,7 +103,7 @@
   background-color: #3838ce;
 }
 
-@media screen and (max-width: 1024px) and (min-width: 640px) {
+@media screen and (max-width: 1199px) and (min-width: 640px) {
   .promo-photo-block {
     padding: 20px 40px;
     margin-top: 80px;

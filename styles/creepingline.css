@@ -76,7 +76,7 @@
   animation: scroll-rid 20s linear infinite;
 }
 
-@media screen and (max-width: 1024px) and (min-width: 640px) {
+@media screen and (max-width: 1199px) and (min-width: 640px) {
   .text-font {
     font-family: "MONT", sans-serif;
     font-weight: 800;
