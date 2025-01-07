@@ -165,6 +165,8 @@ input[type="checkbox"]:checked:after {
 
 @media screen and (max-width: 1199px) and (min-width: 640px) {
   .consultation-bg-photo {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
     height: auto;
     padding: 40px 20px;
     margin-bottom: 100px;
@@ -173,7 +175,7 @@ input[type="checkbox"]:checked:after {
   .container-consultation {
     width: 100%;
     padding: 40px;
-    border-radius: 60px;
+    border-radius: 80px;
   }
 
   .col-wh {
@@ -181,13 +183,14 @@ input[type="checkbox"]:checked:after {
   }
 
   .color-consultation p {
-    margin-top: 80px;
+    margin-top: 30px;
+    margin-bottom: 60px;
     width: 100%;
   }
 
   .text-font-consul h1 {
     font-size: 40px;
-    width: 100%;
+    width: 474px;
   }
 
   .text-font-consul p {

@@ -70,6 +70,8 @@
 
 @media screen and (max-width: 1024px) and (min-width: 640px) {
   .pop-up-container {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
     justify-content: center;
     align-items: center;
     width: 100%;

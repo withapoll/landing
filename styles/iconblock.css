@@ -50,6 +50,8 @@
 
 @media screen and (max-width: 1199px) and (min-width: 640px) {
   .icon-block {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
     margin-top: 80px;
     margin-bottom: 100px;
   }

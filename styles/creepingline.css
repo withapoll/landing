@@ -77,6 +77,9 @@
 }
 
 @media screen and (max-width: 1199px) and (min-width: 640px) {
+  .pov {
+    margin-bottom: 100px;
+  }
   .text-font {
     font-family: "MONT", sans-serif;
     font-weight: 800;
