@@ -6,45 +6,95 @@ session_start()
 <head>
     <meta charset="UTF-8">
     <title>Таблица</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/mdb.min.css" rel="stylesheet">
-    <script type="text/javascript" src="js/mdb.es.min.js"></script>
-</head>
-<body>
-<div>
-    <form action="get_all_records.php" method="post">
-        <?php
-        if(!empty($_SESSION['day1']) and !empty($_SESSION['day2']) and !isset($_POST['sort'])) {
-            $day1_i = $_SESSION['day1'];
-            $day2_i = $_SESSION['day2'];
-        }else {
-            $day1_i = $_POST['first'];
-            $day2_i = $_POST['second'];
+    <style>
+        .container {
+            padding: 20px;
         }
-        echo "С <input type='date' id='first' name='first' value='{$day1_i}'>";
-        echo "По <input type='date' id='second' name='second' value='{$day2_i}'>";
-        ?>
-        <input type="submit" value="Сортировать" name="sort">
-    </form>
+        .form-container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .btn-container {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .table-container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .table thead th {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body class="bg-light">
+    <div class="container">
+        <div class="form-container">
+            <form action="get_all_records.php" method="post" class="row align-items-end">
+                <?php
+                if(!empty($_SESSION['day1']) and !empty($_SESSION['day2']) and !isset($_POST['sort'])) {
+                    $day1_i = $_SESSION['day1'];
+                    $day2_i = $_SESSION['day2'];
+                }else {
+                    $day1_i = $_POST['first'];
+                    $day2_i = $_POST['second'];
+                }
+                ?>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="first" class="form-label">С</label>
+                        <input type="date" class="form-control" id="first" name="first" value="<?php echo $day1_i; ?>">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="second" class="form-label">По</label>
+                        <input type="date" class="form-control" id="second" name="second" value="<?php echo $day2_i; ?>">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <button type="submit" class="btn btn-primary" name="sort">Сортировать</button>
+                </div>
+            </form>
 
-    <form action="createCsv.php" method="post">
-        <input type="submit" name="CreateCSV" value="Скачать данные">
-    </form>
-    
-    <form action="get_all_records.php" method="post">
-        <input type="submit" name="exit" value="Выход">
-    </form>
-</div>
-<table id="dtMaterialDesignExample" class="table table-striped" cellspacing="0" width="100%">
-    <thead>
-    <tr>
-        <th class="th-sm">ИД</th>
-        <th class="th-sm">Дата добавления</th>
-        <th class="th-sm">Имя</th>
-        <th class="th-sm">Почта</th>
-        <th class="th-sm">Номер телефона</th>
-    </tr>
-    </thead>
-    <tbody>
+            <div class="btn-container">
+                <form action="createCsv.php" method="post">
+                    <button type="submit" class="btn btn-success" name="CreateCSV">
+                        <i class="bi bi-download"></i> Скачать данные
+                    </button>
+                </form>
+                
+                <form action="get_all_records.php" method="post">
+                    <button type="submit" class="btn btn-danger" name="exit">
+                        <i class="bi bi-box-arrow-right"></i> Выход
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <table id="dtMaterialDesignExample" class="table table-hover">
+                <thead class="table-light">
+                    <tr>
+                        <th scope="col">ИД</th>
+                        <th scope="col">Дата добавления</th>
+                        <th scope="col">Имя</th>
+                        <th scope="col">Почта</th>
+                        <th scope="col">Номер телефона</th>
+                    </tr>
+                </thead>
+                <tbody>
 <?php
     if($_SESSION['auth']){
         $servername = 'localhost';
