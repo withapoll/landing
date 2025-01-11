@@ -20,7 +20,7 @@ session_start()
             margin-bottom: 20px;
         }
         .form-group {
-            margin-bottom: 15px;
+            margin-bottom: 0;
         }
         .btn-container {
             display: flex;
