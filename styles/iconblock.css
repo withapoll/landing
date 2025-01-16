@@ -92,6 +92,7 @@
   .icon-block {
     margin-top: 60px;
     margin-bottom: 80px;
+    overflow: hidden;
   }
 
   .icon-block .icon {

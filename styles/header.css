@@ -20,11 +20,6 @@
   border: none;
 }
 
-/*.btn.rounded-circle:hover {*/
-/*  background-color: #b8e904;*/
-/*  color: #52515f;*/
-/*}*/
-
 .btn-lg {
   background-color: #52515f;
   border-radius: 60px !important;
@@ -104,6 +99,14 @@
     margin-bottom: 10px;
   }
 
+  .btn-group {
+    display: flex;
+    flex-direction: row;
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+  }
+
   .btn.rounded-circle {
     width: 50px;
     height: 50px;
@@ -111,9 +114,11 @@
     min-height: 50px;
     max-width: 50px;
     max-height: 50px;
+    margin: 0;
   }
 
   .btn-lg {
+    width: 100% !important;
     height: 50px;
     font-size: 16px;
     font-family: "MONT", sans-serif;
@@ -121,9 +126,6 @@
     padding-left: 20px;
     padding-right: 20px;
     text-align: left;
-  }
-
-  .btn-group {
-    justify-content: left;
+    margin: 0;
   }
 }
