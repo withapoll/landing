@@ -86,7 +86,6 @@
 
   .nav-pills {
     width: 100%;
-    height: 55px;
   }
 
   .img-document {
@@ -142,7 +141,6 @@
 
   .document-line {
     width: 100%;
-    height: auto;
     text-align: left;
     margin-bottom: 10px;
   }

@@ -22,7 +22,7 @@
 
 @media screen and (max-width: 1199px) and (min-width: 640px) {
   .about-block {
-    width: 600px;
+    width: 650px;
     margin-top: 100px;
     margin-bottom: 100px;
   }
@@ -30,8 +30,6 @@
   .about-block h2 {
     height: 342px;
     font-size: 30px;
-    margin-top: 100px;
-    margin-bottom: 10px;
   }
 }
 
