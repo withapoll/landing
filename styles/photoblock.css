@@ -44,8 +44,9 @@
 }
 
 .text-photo {
+  justify-content: baseline;
   text-align: left;
-  padding: 10px;
+  width: 100%;
 }
 
 .text-photo h3 {
