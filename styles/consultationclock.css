@@ -19,7 +19,7 @@
 }
 
 .col-wh {
-  width: 500px;
+  width: 600px;
 }
 
 .color-consultation {
@@ -27,18 +27,19 @@
 }
 
 .color-consultation p {
-  margin-top: 100px;
+  margin-top: 45px;
 }
 
 .text-font-consul h1 {
   font-family: "MONT", sans-serif;
-  font-weight: 800;
+  font-weight: 600;
   font-style: normal;
   font-size: 40px;
 }
 
 .italic-text {
   font-style: italic;
+  font-weight: 800;
 }
 
 .text-font-consul p {
@@ -111,7 +112,7 @@ input[type="checkbox"]:checked:after {
 }
 
 .btne.btne-width {
-  width: 418px;
+  width: 518px;
 }
 
 .btne-lg {
